@@ -245,7 +245,7 @@ class playerSettings {
 			h = (1 / 25);
 		};
 
-		cclass ButtonCell : Life_RscButtonMenu {
+		class ButtonCell : Life_RscButtonMenu {
 			idc = 2014;
 			text = "$STR_PM_CellPhone";
 			onButtonClick = "[] call life_fnc_checkPhone";
