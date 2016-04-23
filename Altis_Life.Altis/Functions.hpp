@@ -288,6 +288,8 @@ class Life_Client_Core {
 		class say3D {};
 		class setFuel {};
 		class soundDevice {};
+		class MP {};
+		class MPexec {};
 	};
 
 	class Player_Menu {
