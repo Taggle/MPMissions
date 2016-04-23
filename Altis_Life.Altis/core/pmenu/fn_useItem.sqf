@@ -20,6 +20,7 @@ switch (true) do {
 				[] spawn {
 					life_redgull_effect = time;
 					titleText[localize "STR_ISTR_RedGullEffect","PLAIN"];
+					[player, "Drink"] call CBA_fnc_globalSay3d;
 					player enableFatigue false;
 					waitUntil {!alive player OR ((time - life_redgull_effect) > (3 * 60))};
 					player enableFatigue true;
@@ -72,6 +73,7 @@ switch (true) do {
 			if([false,_item,1] call life_fnc_handleInv) then {
 				_val = M_CONFIG(getNumber,"VirtualItems",_item,"edible");
 				_sum = life_hunger + _val;
+				[player, "EatFood"] call CBA_fnc_globalSay3d;
 				switch (true) do {
 					case (_val < 0 && _sum < 1): {life_hunger = 5;}; //This adds the ability to set the entry edible to a negative value and decrease the hunger without death
 					case (_sum > 100): {life_hunger = 100;};
