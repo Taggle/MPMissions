@@ -83,6 +83,7 @@ if(!_isVehicle) then {
 	_dice = random(100);
 	if(_dice < 30) then {
 		titleText[localize "STR_ISTR_Lock_Success","PLAIN"];
+		[_curTarget, "alarme_voiture"] call CBA_fnc_globalSay3d;
 		life_vehicles pushBack _curTarget;
 
 		if(life_HC_isActive) then {
@@ -101,5 +102,6 @@ if(!_isVehicle) then {
 
 		[0,"STR_ISTR_Lock_FailedNOTF",true,[profileName]] remoteExecCall ["life_fnc_broadcast",west];
 		titleText[localize "STR_ISTR_Lock_Failed","PLAIN"];
+		[_curTarget, "alarme_voiture"] call CBA_fnc_globalSay3d;
 	};
 };
