@@ -245,10 +245,10 @@ class playerSettings {
 			h = (1 / 25);
 		};
 
-		class ButtonCell: Life_RscButtonMenu {
+		cclass ButtonCell : Life_RscButtonMenu {
 			idc = 2014;
 			text = "$STR_PM_CellPhone";
-			onButtonClick = "createDialog ""Life_cell_phone"";";
+			onButtonClick = "[] call life_fnc_checkPhone";
 			x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.8 - (1 / 25);
 			w = (6.25 / 40);

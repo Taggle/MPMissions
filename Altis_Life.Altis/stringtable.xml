@@ -10099,4 +10099,39 @@
 			<Portuguese>A sua parte é de R$%1</Portuguese>
 		</Key>
 	</Package>
+		<Package name="Smartphone">
+		<Key ID="STR_PM_Smartphone">
+		  <Original>Smartphone</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_TITLE">
+		  <Original>Smartphone Menu</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_PLAYERLISTTITLE">
+			<Original>Liste des joueurs</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
+			<Original>NOUVELLES  | DE | QUAND</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_RANDOMTITLE">
+			<Original>Sélectionnez un message à lire</Original>
+		</Key>
+		<Key ID="STR_Global_Close">
+			<Original>Fermer</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_SCHREIBEN">
+			<Original>écrire</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NOTRUF">
+			<Original>appel d'urgence</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_Absenden">
+			<Original>envoyer</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NACHRICHTTITLE">
+			<Original>Message:</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_Notruftitle">
+			<Original>APPELS d'URGENCE | L'abus conduit au BAN!</Original>
+		</Key>
+	</Package>
 </Project>

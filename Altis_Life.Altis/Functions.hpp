@@ -365,4 +365,11 @@ class Life_Client_Core {
 		class vehTakeItem {};
 		class vInteractionMenu {};
 	};
+
+	class Shark_Communications {
+		file = "Shark\Communications";
+		class smartphone {};
+		class newMsg {};
+		class showMsg {};
+	};
 };
