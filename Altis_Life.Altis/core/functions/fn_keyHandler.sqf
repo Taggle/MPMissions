@@ -317,7 +317,8 @@ switch (_code) do {
 							_veh animateDoor ['DoorR_Back_Open ',1];
 						};
 						systemChat localize "STR_MISC_VehUnlock";
-						[_veh,"UnlockCarSound"] remoteExec ["life_fnc_say3D",RANY];
+						hint composeText [ image "data_shark\icons\unlock.paa", " Véhicule Déverrouillé" ];
+						[_veh, "Car_Unlock"] call CBA_fnc_globalSay3d;
 					} else {
 						if(local _veh) then {
 							_veh lock 2;
@@ -367,7 +368,8 @@ switch (_code) do {
 							_veh animateDoor ['DoorR_Back_Open ',0];
 						};
 						systemChat localize "STR_MISC_VehLock";
-						[_veh,"LockCarSound"] remoteExec ["life_fnc_say3D",RANY];
+						hint composeText [ image "data_shark\icons\lock.paa", " Véhicule Verrouillé" ];
+						[_veh, "CarLock"] call CBA_fnc_globalSay3d;
 					};
 				};
 			};
