@@ -24,11 +24,11 @@ class Life_Settings {
     save_civilian_positionStrict = false; //Strip the player if possible combat-log?  WARNING: Server crashes and lack of reliable syncing can trigger this.
 
     /* Vehicle Data Saving */
-    save_vehicle_virtualItems = false; //Save virtual items inside the vehicle (all sides)(-- See defined items on next line --)
+    save_vehicle_virtualItems = true; //Save virtual items inside the vehicle (all sides)(-- See defined items on next line --)
     save_vehicle_items[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat" };
     save_vehicle_inventory = false; //Save Arma inventory of vehicle to the database
-    save_vehicle_fuel = false; //Save vehicle fuel level to the database (Impounded/Garaged).
-    save_vehicle_damage = false; //Save vehicle damage to the database.
+    save_vehicle_fuel = true; //Save vehicle fuel level to the database (Impounded/Garaged).
+    save_vehicle_damage = true; //Save vehicle damage to the database.
     save_vehicle_illegal = false; //This will allow cops to be advised when a vehicle, with illegal items in it, is impounded. This will also save illegal items as proof of crime, and needs "save_vehicle_virtualItems" set as true. Illegal items don't need to be set in save_vehicle_items[] for being saved, if it's enabled.
 
 
@@ -36,7 +36,7 @@ class Life_Settings {
     /* ATM & Federal Reserve System Configurations */
     global_ATM = true; //Allow users to access any ATM on the map (Marked & Unmarked).
     noatm_timer = 10; //Time in minutes that players cannot deposit money after selling stolen gold.
-    minimum_cops = 5; //Minimum cops required online to rob the Federal Reserve
+    minimum_cops = 6; //Minimum cops required online to rob the Federal Reserve
 
     /* Basic System Configurations */
     donor_level = false; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
@@ -47,7 +47,7 @@ class Life_Settings {
     /* Clothing System Configurations */
     civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
     cop_extendedSkins = false; //Enable or disable cop skins by level. Before enabling, you must add all the EIGHT files to textures folder. (It must be named as: cop_uniform.jpg + cop_uniform_1.jpg, cop_uniform_2.jpg...cop_uniform_6.jpg, cop_uniform_7.jpg; meaning cop_uniform = life_coplevel=0, cop_uniform_1 = life_coplevel=1, cop_uniform_2 = life_coplevel=2, etc...)
-    clothing_noTP = false;  //Disable clothing preview teleport? (true = no teleport. false = teleport)
+    clothing_noTP = true;  //Disable clothing preview teleport? (true = no teleport. false = teleport)
     clothing_box = true; //true = teleport to a black box. false = teleport to somewhere on map. (It only affects the game if clothing_noTP is set as false)
     clothing_masks[] = { "H_Shemag_olive", "H_Shemag_khk", "H_Shemag_tan", "H_Shemag_olive_hs", "H_ShemagOpen_khk", "H_ShemagOpen_tan", "G_Balaclava_blk", "G_Balaclava_combat", "G_Balaclava_lowprofile", "G_Balaclava_oli", "G_Bandanna_aviator", "G_Bandanna_beast", "G_Bandanna_blk", "G_Bandanna_khk", "G_Bandanna_oli", "G_Bandanna_shades", "G_Bandanna_sport", "G_Bandanna_tan", "U_O_GhillieSuit", "U_I_GhillieSuit", "U_B_GhillieSuit", "H_RacingHelmet_1_black_F", "H_RacingHelmet_1_red_F", "H_RacingHelmet_1_white_F", "H_RacingHelmet_1_blue_F", "H_RacingHelmet_1_yellow_F", "H_RacingHelmet_1_green_F", "H_RacingHelmet_1_F", "H_RacingHelmet_2_F", "H_RacingHelmet_3_F", "H_RacingHelmet_4_F" };
 
@@ -62,15 +62,15 @@ class Life_Settings {
     gang_upgradeMultiplier = 2.5; //CURRENTLY NOT IN USE
 
     /* Housing System Configurations */
-    house_limit = 5; //Maximum number of houses a player can own.
+    house_limit = 2; //Maximum number of houses a player can own.
 
     /* Hunting & Fishing System Configurations */
     animaltypes_fish[] = { "Salema_F", "Ornate_random_F", "Mackerel_F", "Tuna_F", "Mullet_F", "CatShark_F", "Turtle_F" }; //Classnames of fish you can catch
     animaltypes_hunting[] = { "Sheep_random_F", "Goat_random_F", "Hen_random_F", "Cock_random_F", "Rabbit_F" }; //Classnames of aniamls you can hunt/gut
 
     /* Item-related Restrictions */
-    restrict_medic_weapons = true; //Set to false to allow medics to use any weapon --true will remove ANY weapon they attempt to use (primary,secondary,launcher)
-    restrict_clothingPickup = true; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
+    restrict_medic_weapons = false; //Set to false to allow medics to use any weapon --true will remove ANY weapon they attempt to use (primary,secondary,launcher)
+    restrict_clothingPickup = false; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
     restrict_weaponPickup = false; //Set to false to allow civilians to pickup/take any weapon (ground/crates/vehicles)
     restricted_uniforms[] = { "U_Rangemaster", "U_B_CombatUniform_mcam_tshirt", "U_B_CombatUniform_mcam_worn", "U_B_survival_uniform" };
     restricted_weapons[] = { "hgun_P07_snds_F", "arifle_MX_F", "arifle_MXC_F" };
@@ -80,7 +80,7 @@ class Life_Settings {
     jail_seize_inventory = false; //Set to true to run the cop seize script on inmates. False will remove only weapons and magazines otherwise. (Basically used in case cops forget to seize items). [See Lines 106-111 below]
 
     /* Medical System Configurations */
-    revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
+    revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
     revive_fee = 1500; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
 
     /* Paycheck & Bank System Configurations */
@@ -88,7 +88,7 @@ class Life_Settings {
     bank_civ = 3000; //Amount of cash in bank for new civillians
     bank_med = 6500; //Amount of cash in bank for new medics
 
-    paycheck_period = 5; //Scaled in minutes
+    paycheck_period = 15; //Scaled in minutes
     paycheck_cop = 500; //Payment for cops
     paycheck_civ = 350; //Payment for civillians
     paycheck_med = 450; //Payment for medics
