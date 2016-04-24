@@ -7,7 +7,6 @@ class Life_my_smartphone {
 	
 	class controlsBackground {
 	
-		/*
 		class Life_RscTitleBackground:Life_RscText {
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
 			idc = -1;
@@ -16,17 +15,7 @@ class Life_my_smartphone {
 			w = 0.95;
 			h = (1 / 25);
 		};
-		*/
-
-	    class fondtablet: Life_RscPicture
-		{
-			idc = 9090909;
-			text = "\data_shark\textures\ipad.paa";
-			x = 0;
-			y = -0.12;
-			w = 1;
-			h = 1.28;
-		};
+		
 		
 		class MainBackground:Life_RscText {
 			colorBackground[] = {0, 0, 0, 0.7};
