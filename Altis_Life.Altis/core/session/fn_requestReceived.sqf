@@ -31,6 +31,14 @@ if(!isServer && (!isNil "life_adminlevel" OR !isNil "life_coplevel" OR !isNil "l
 	failMission "SpyGlass";
 };
 
+//Blocage nickname
+if(profileName != _this select 1) exitWith {
+	hint format["Votre vrai nom : %1",_this select 1];
+	[format["Faux papiers détectés !<br/><br/>Merci de remettre ce Nom : <t color='#b20303'>%1</t><br/><br/>Si vous désirez changer de nom merci de faire une demande à la préfecture <t color='#665bff'>forum.sharklife.fr</t>", _this select 1], "Changement de Nom", "J'ai compris !"] call BIS_fnc_guiMessage;
+	sleep 8;
+	["NameExists",false,false] call BIS_fnc_endMission;
+};
+
 //Parse basic player information.
 CASH = parseNumber (SEL(_this,2));
 BANK = parseNumber (SEL(_this,3));

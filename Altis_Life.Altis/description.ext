@@ -120,6 +120,16 @@ class CfgDebriefing
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
 	};
+
+	class NameExists
+	{
+		title = "Faux papiers";
+		subTitle = "";
+		description = "Faux papiers détectés ! Veuillez présenter vos papiers avec votre vrai nom ou faire une demande à la préfecture pour changer vos papiers : forum.sharklife.fr";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
 };
 
 class CfgNotifications
