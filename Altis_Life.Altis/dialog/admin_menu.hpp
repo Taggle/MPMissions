@@ -6,6 +6,8 @@ class life_admin_menu {
 	onLoad = "[] spawn life_fnc_adminMenu;";
 
 	class controlsBackground {
+		
+		/*
 		class MainBackground: Life_RscText {
 			idc = -1;
 			colorBackground[] = {0,0,0,0.7};
@@ -13,6 +15,17 @@ class life_admin_menu {
 			y = 0.313 * safezoneH + safezoneY;
 			w = 0.37125 * safezoneW;
 			h = 0.396 * safezoneH;
+		};
+		*/
+
+		class fondtablet: Life_RscPicture
+		{
+			idc = 9090909;
+			text = "\data_shark\textures\ipad.paa";
+			x = 0;
+			y = -0.12;
+			w = 1;
+			h = 1.28;
 		};
 
 		class Life_RscTitleBackground: Life_RscText {
