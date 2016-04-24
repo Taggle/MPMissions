@@ -5495,6 +5495,10 @@
 			<Portuguese>Maçã</Portuguese>
 			<Polish>Jabłko</Polish>
 		</Key>
+		<Key ID="STR_Item_Tracker">
+			<Original>GPS Tracker</Original>
+			<French>Traceur GPS</French>
+		</Key>
 		<Key ID="STR_Item_Apples">
 			<Original>Apples</Original>
 			<Czech>jablka</Czech>

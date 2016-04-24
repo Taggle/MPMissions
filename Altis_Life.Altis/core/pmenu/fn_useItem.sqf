@@ -48,6 +48,10 @@ switch (true) do {
 		[] call life_fnc_storageBoxSmall;
 	};
 
+	case (EQUAL(_item,"gpsTracker")): {
+		[cursorTarget] spawn life_fnc_gpsTracker;
+	};
+
 	case (EQUAL(_item,"storagebig")): {
 		[] call life_fnc_storageBoxBig;
 	};

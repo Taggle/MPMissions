@@ -373,4 +373,9 @@ class Life_Client_Core {
 		class showMsg {};
 		class checkPhone {};
 	};
+
+	class Shark_Police {
+		file = "Shark\Police";
+		class gpsTracker {};
+	};
 };

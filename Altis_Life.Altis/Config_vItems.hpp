@@ -871,4 +871,15 @@ class VirtualItems {
 		edible = 100;
 		icon = "icons\ico_muttonLeg.paa";
 	};
+
+	class gpsTracker {
+		variable = "gpsTracker";
+		displayName = "STR_Item_Tracker";
+		weight = 1;
+		buyPrice = 150;
+		sellPrice = 75;
+		illegal = false;
+		edible = -1;
+		icon = "\data_shark\textures\icons\Items\gpstracker.paa";
+	};
 };
