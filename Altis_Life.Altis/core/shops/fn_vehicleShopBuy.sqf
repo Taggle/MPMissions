@@ -125,6 +125,7 @@ switch(playerSide) do {
 };
 
 _vehicle allowDamage true;
+playSound "Achat";
 
 //life_vehicles set[count life_vehicles,_vehicle]; //Add err to the chain.
 life_vehicles pushBack _vehicle;

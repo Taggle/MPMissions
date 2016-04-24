@@ -25,6 +25,7 @@ if(([false,_type,_amount] call life_fnc_handleInv)) then {
 	hint format[localize "STR_Shop_Virt_SellItem",_amount,(localize _name),[_price] call life_fnc_numberText];
 	ADD(CASH,_price);
 	[] call life_fnc_virt_update;
+	playSound "Achat";
 };
 
 if(EQUAL(life_shop_type,"drugdealer")) then {

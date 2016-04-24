@@ -68,4 +68,5 @@ if((uiNamespace getVariable["Weapon_Shop_Filter",0]) == 1) then {
 		[_item,true] spawn life_fnc_handleItem;
 	};
 };
+playSound "Achat";
 [] call life_fnc_saveGear;
