@@ -106,6 +106,40 @@ for "_i" from 0 to 1 step 0 do {
 	};
 	uiSleep 1;
 };
+
+//part of alcohol system written by [midgetgrimm]
+[] spawn
+{
+	while {true} do
+	{
+		waitUntil {sleep 0.3; life_drink > 0};
+		while{(life_drink > 0)} do {
+			enableCamShake true;
+			if(life_drink > 0.25) then {
+				"radialBlur" ppEffectEnable true;
+				"radialBlur" ppEffectAdjust[0.2, 0.15,0.35,0.37];
+				"radialBlur" ppEffectCommit 3;
+				addCamShake[random 6, 900, random 6];
+				sleep 900;
+				life_drink = life_drink - 0.05;
+			} else {
+				"radialBlur" ppEffectEnable true;
+				"radialBlur" ppEffectAdjust[0.05, 0,0.36,0.38];
+				"radialBlur" ppEffectCommit 1;
+				addCamShake[random 4, 600, random 4];
+				sleep 600;
+				life_drink = life_drink - 0.05;
+			};
+		};
+		
+		"radialBlur" ppEffectAdjust  [0,0,0,0];
+		"radialBlur" ppEffectCommit 5;
+		"radialBlur" ppEffectEnable false;
+		life_drink = 0;
+		resetCamShake;
+		
+	};
+};
 	
 	
 	
