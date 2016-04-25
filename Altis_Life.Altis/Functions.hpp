@@ -159,6 +159,7 @@ class Life_Client_Core {
 		class unimpound {};
 		class vehicleGarage {};
 		class wireTransfer {};
+		class forcerRespawn {};
 	};
 
 	class Functions	{
@@ -377,5 +378,19 @@ class Life_Client_Core {
 	class Shark_Police {
 		file = "Shark\Police";
 		class gpsTracker {};
+	};
+
+	class Shark_Actions {
+		file = "Shark\Actions";
+		class executer {};
+		class montrerPapiers {};
+		class souffler {};
+		class soufflerBallon {};
+		class voirPapiers {};
+	};
+
+	class Shark_Functions {
+		file = "Shark\Functions";
+		class breathalyzer {};
 	};
 };

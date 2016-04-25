@@ -136,6 +136,20 @@ publicVariableServer "life_fnc_RequestClientId"; //Variable OwnerID for Headless
 	};
 };
 
+[] spawn
+{
+	private["_od"];
+	while {true} do {
+		sleep (5*60);
+		life_drug_level = life_drug_level - 0.05;
+		if(life_drug_level<0) then {life_drug_level = 0;};
+		if(dependance>life_drug_level) then {
+			_od = random 1;
+			if (_od > 0.6) then { [1] spawn life_fnc_overdose; };
+		};
+	};
+};
+
 CONSTVAR(life_paycheck); //Make the paycheck static.
 if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigue false;};
 

@@ -49,6 +49,9 @@ life_civ_position = [];
 life_markers = false;
 life_smartphoneTarget = ObjNull;
 
+life_drink = 0;
+life_drug_level = 0;
+
 //Settings
 life_settings_enableSidechannel = GVAR_PNAS["life_enableSidechannel",true];
 life_settings_tagson = GVAR_PNAS["life_settings_tagson",true];
