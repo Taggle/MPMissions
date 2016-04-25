@@ -25,6 +25,11 @@ if((_code in (actionKeys "GetOver") || _code in (actionKeys "salute") || _code i
 	true;
 };
 
+//Anti Vue Tactique
+if(_code in (actionKeys "TacticalView")) exitWith {
+	true;
+};
+
 if(life_action_inUse) exitWith {
 	if(!life_interrupted && _code in _interruptionKeys) then {life_interrupted = true;};
 	_handled;
