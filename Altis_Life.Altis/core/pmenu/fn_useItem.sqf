@@ -63,6 +63,13 @@ switch (true) do {
 		};
 	};
 
+	case (EQUAL(_item,"cone")): {
+		if(!isNull life_cone) exitWith {["Vous avez déjà un cône en déploiement", false] spawn quickNotif;};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_cone;
+		};
+	};
+
 	case (EQUAL(_item,"fuelFull")): {
 		if(vehicle player != player) exitWith {[localize "STR_ISTR_RefuelInVehicle", false] spawn quickNotif;};
 		[] spawn life_fnc_jerryRefuel;

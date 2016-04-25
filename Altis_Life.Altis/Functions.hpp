@@ -392,5 +392,12 @@ class Life_Client_Core {
 	class Shark_Functions {
 		file = "Shark\Functions";
 		class breathalyzer {};
+		class overdose {};
+	};
+
+	class Shark_Items {
+		file = "Shark\Items";
+		class Cone {};
+		class packupCone {};
 	};
 };

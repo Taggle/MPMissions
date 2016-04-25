@@ -227,6 +227,17 @@ class VirtualItems {
 		icon = "icons\ico_spikeStrip.paa";
 	};
 
+	class cone {
+		variable = "cone";
+		displayName = "STR_Item_Cone";
+		weight = 3;
+		buyPrice = 10;
+		sellPrice = 5;
+		illegal = true;
+		edible = -1;
+		icon = "\data_shark\textures\icons\Items\cone.paa";
+	};
+
 	class lockpick {
 		variable = "lockpick";
 		displayName = "STR_Item_Lockpick";
