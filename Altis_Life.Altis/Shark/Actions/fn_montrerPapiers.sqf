@@ -20,12 +20,14 @@ switch (playerSide) do
 {
 	case west: 
 	{
-		_lvl = __GETC__(life_coplevel);
+		_lvl = (FETCH_CONST(life_coplevel));
 	};
+	
 	case independent: 
 	{
-		_lvl = __GETC__(life_medicLevel);
+		_lvl = (FETCH_CONST(life_mediclevel));
 	};
+	
 	case civilian:
 	{
 		switch (true) do
