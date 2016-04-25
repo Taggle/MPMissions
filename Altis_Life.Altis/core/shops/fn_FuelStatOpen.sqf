@@ -17,7 +17,7 @@ life_action_inUse = true;
 _fuelstations = nearestObjects [player, ["Land_fs_feed_F"],10];
 if (count _fuelstations == 0 ) exitWith {life_action_inUse = false;};
 _vehicleList = nearestObjects [player, ["Car","air"], 10];
-if (count _vehicleList < 1) exitWith {hint localize "STR_NOTF_VehicleNear";life_action_inUse = false;};
+if (count _vehicleList < 1) exitwith {[localize "STR_NOTF_VehicleNear", false] spawn quickNotif; life_action_inUse = false;};
 if(!createDialog "Life_FuelStat") exitWith {};
 _fuelCost = LIFE_SETTINGS(getNumber,"fuel_cost");
 [] spawn {waitUntil {!dialog}; life_action_inUse = false;};

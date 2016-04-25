@@ -33,7 +33,7 @@ switch (_state) do {
 			SVAR_MNS [LICENSE_VARNAME("driver","civ"),false];
 			SVAR_MNS [LICENSE_VARNAME("trucking","civ"),false];
 			SVAR_MNS [LICENSE_VARNAME("boat","civ"),false];
-			hint localize "STR_Civ_LicenseRemove_1";
+			[localize "STR_Civ_LicenseRemove_1", false] spawn notif;
 		};
 	};
 
@@ -41,7 +41,7 @@ switch (_state) do {
 	case 3: {
 		if(GVAR_MNS LICENSE_VARNAME("gun","civ")) then {
 			SVAR_MNS [LICENSE_VARNAME("gun","civ"),false];
-			hint localize "STR_Civ_LicenseRemove_2";
+			[localize "STR_Civ_LicenseRemove_2", false] spawn notif;
 		};
 	};
 };

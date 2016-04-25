@@ -58,7 +58,7 @@ if(EQUAL(typeName life_garage_sp,typeName [])) then {
 	};
 };
 
-hint localize "STR_Garage_SpawningVeh";
+[localize "STR_Garage_SpawningVeh", false] spawn notif;
 SUB(BANK,_price);
 [1] call SOCK_fnc_updatePartial;
 closeDialog 0;

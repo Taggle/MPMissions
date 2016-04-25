@@ -72,7 +72,7 @@ _IndexNow = -1;
 		_exit = true;
 	};
 } forEach _itemNameInv;
-if (_exit) exitWith {life_is_processing = false;hint localize "STR_NOTF_NotEnoughItemProcess";};
+if (_exit) exitWith {life_is_processing = false;[localize "STR_NOTF_NotEnoughItemProcess", false] spawn quickNotif;};
 
 if(_vendor in [mari_processor,coke_processor,heroin_processor]) then {
 	_hasLicense = true;
@@ -107,7 +107,7 @@ if(_hasLicense) then {
 		if(_cP >= 1) exitWith {};
 		if(player distance _vendor > 10) exitWith {};
 	};
-	if(player distance _vendor > 10) exitWith {hint localize "STR_Process_Stay"; 5 cutText ["","PLAIN"]; life_is_processing = false;};
+	if(player distance _vendor > 10) exitWith {[localize "STR_Process_Stay", false] spawn quickNotif; 5 cutText ["","PLAIN"]; life_is_processing = false;};
 	_IndexNow = -1;
 	_ItemMax = [];
 	{
@@ -149,8 +149,8 @@ if(_hasLicense) then {
 		if(player distance _vendor > 10) exitWith {};
 	};
 
-	if(player distance _vendor > 10) exitWith {hint localize "STR_Process_Stay"; 5 cutText ["","PLAIN"]; life_is_processing = false;};
-	if(CASH < _cost) exitWith {hint format[localize "STR_Process_License",[_cost] call life_fnc_numberText]; 5 cutText ["","PLAIN"]; life_is_processing = false;};
+	if(player distance _vendor > 10) exitWith {[localize "STR_Process_Stay", false] spawn quickNotif; 5 cutText ["","PLAIN"]; life_is_processing = false;};
+	if(CASH < _cost) exitWith {[format[localize "STR_Process_License",[_cost] call life_fnc_numberText], false] spawn quickNotif; 5 cutText ["","PLAIN"]; life_is_processing = false;};
 	_IndexNow = -1;
 	_ItemMax = [];
 	{

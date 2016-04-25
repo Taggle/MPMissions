@@ -18,5 +18,5 @@ if(player != _unit) exitWith {};
 if(!([_val] call TON_fnc_isnumber)) exitWith {};
 if(_unit == _from) exitWith {}; //Bad boy, trying to exploit his way to riches.
 
-hint format[localize "STR_NOTF_GivenMoney",_from GVAR ["realname",name _from],[(parseNumber (_val))] call life_fnc_numberText];
+[format[localize "STR_NOTF_GivenMoney",_from GVAR ["realname",name _from],[(parseNumber (_val))] call life_fnc_numberText], false] spawn notif;
 ADD(CASH,parseNumber(_val));

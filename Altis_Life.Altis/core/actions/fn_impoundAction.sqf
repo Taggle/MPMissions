@@ -43,7 +43,7 @@ for "_i" from 0 to 1 step 0 do {
 
 5 cutText ["","PLAIN"];
 
-if(player distance _vehicle > 10) exitWith {hint localize "STR_NOTF_ImpoundingCancelled"; life_action_inUse = false;};
+if(player distance _vehicle > 10) exitWith {[localize "STR_NOTF_ImpoundingCancelled", false] spawn quickNotif; life_action_inUse = false;};
 if(!alive player) exitWith {life_action_inUse = false;};
 
 if(EQUAL(count crew _vehicle,0)) then {

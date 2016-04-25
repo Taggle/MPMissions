@@ -23,7 +23,7 @@ BANK = BANK - (_value + _tax);
 
 [_value,profileName] remoteExecCall ["life_fnc_wireTransfer",_unit];
 [] call life_fnc_atmMenu;
-hint format[localize "STR_ATM_SentMoneySuccess",[_value] call life_fnc_numberText,_unit GVAR ["realname",name _unit],[_tax] call life_fnc_numberText];
+[format[localize "STR_ATM_SentMoneySuccess",[_value] call life_fnc_numberText,_unit GVAR ["realname",name _unit],[_tax] call life_fnc_numberText], false] spawn Systeme_Notif_ZRX;
 [1] call SOCK_fnc_updatePartial;
 
 if(EQUAL(LIFE_SETTINGS(getNumber,"player_moneyLog"),1)) then {

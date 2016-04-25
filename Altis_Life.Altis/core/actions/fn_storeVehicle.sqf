@@ -25,7 +25,7 @@ if(vehicle player != player) then {
 	};
 };
 
-if(isNil "_vehicle") exitWith {hint localize "STR_Garage_NoNPC"};
+if(isNil "_vehicle") exitWith {[localize "STR_Garage_NoNPC", false] spawn quickNotif;};
 if(isNull _vehicle) exitWith {};
 
 
@@ -37,5 +37,5 @@ if(life_HC_isActive) then {
 	[_vehicle,false,(_this select 1),_storetext] remoteExec ["TON_fnc_vehicleStore",RSERV];
 };
 
-hint localize "STR_Garage_Store_Server";
+[localize "STR_Garage_Store_Server", false] spawn quickNotif;
 life_garage_store = true;

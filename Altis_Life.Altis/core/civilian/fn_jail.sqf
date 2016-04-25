@@ -17,12 +17,12 @@ if(_unit != player) exitWith {}; //Dafuq?
 if(life_is_arrested) exitWith {}; //Dafuq i'm already arrested
 _illegalItems = LIFE_SETTINGS(getArray,"jail_seize_vItems");
 
-player SVAR ["restrained",false,true];
+[player, false] call ACE_captives_fnc_setHandcuffed;
 player SVAR ["Escorting",false,true];
 player SVAR ["transporting",false,true];
 
 titleText[localize "STR_Jail_Warn","PLAIN"];
-hint localize "STR_Jail_LicenseNOTF";
+[localize "STR_Jail_LicenseNOTF", false] spawn quickNotif;
 player setPos (getMarkerPos "jail_marker");
 
 if(_bad) then {

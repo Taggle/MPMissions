@@ -22,7 +22,7 @@ if (!isNull _house) then{
 		if(!(_house in life_vehicles) OR isNil {_house GVAR "house_owner"}) then {
 			deleteVehicle _container;
 			[true,_type,_number] call life_fnc_handleInv;
-			hint localize "STR_House_Container_House_Near_Owner";
+			[localize "STR_House_Container_House_Near_Owner", false] spawn quickNotif;
 		} else {
 			_containers = _house GVAR ["containers",[]];
 			_houseCfg = [(typeOf _house)] call life_fnc_houseConfig;
@@ -30,7 +30,7 @@ if (!isNull _house) then{
 			if(count _containers >= (_houseCfg select 1)) then {
 				deleteVehicle _container;
 				[true,_type,_number] call life_fnc_handleInv;
-				hint localize "STR_ISTR_Box_HouseFull";
+				[localize "STR_ISTR_Box_HouseFull", false] spawn quickNotif;
 				} else {
 
 					if(life_HC_isActive) then {
@@ -49,10 +49,10 @@ if (!isNull _house) then{
 	} else {
 		deleteVehicle _container;
 		[true,_type,_number] call life_fnc_handleInv;
-		hint localize "STR_House_Container_House_Near";
+		[localize "STR_House_Container_House_Near", false] spawn quickNotif;
 	};
 } else {
 	deleteVehicle _container;
 	[true,_type,_number] call life_fnc_handleInv;
-	hint localize "STR_House_Container_House_Near";
+	[localize "STR_House_Container_House_Near", false] spawn quickNotif;
 };

@@ -10,7 +10,7 @@ private["_house","_action","_container","_containerType","_containers"];
 _container = param [0,ObjNull,[ObjNull]];
 _containerType = typeOf _container;
 _house = nearestObject [player, "House"];
-if(!(_house in life_vehicles)) exitWith {hint localize "STR_ISTR_Box_NotinHouse"};
+if(!(_house in life_vehicles)) exitWith {[localize "STR_ISTR_Box_NotinHouse", false] spawn quickNotif;};
 if(isNull _container) exitWith {};
 _containers = _house GVAR ["containers",[]];
 closeDialog 0;
@@ -29,7 +29,7 @@ if(_action) then {
 	if(_box == "None") exitWith {};
 
 	_diff = [_box,1,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
-	if(EQUAL(_diff,0)) exitWith {hint localize "STR_NOTF_InvFull"};
+	if(EQUAL(_diff,0)) exitWith {[localize "STR_NOTF_InvFull", false] spawn quickNotif;};
 
 	if(life_HC_isActive) then {
 		[_container] remoteExecCall ["HC_fnc_deleteDBContainer",HC_Life];

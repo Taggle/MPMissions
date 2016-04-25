@@ -12,13 +12,13 @@ disableSerialization;
 _data = lbData[2005,(lbCurSel 2005)];
 _value = ctrlText 2010;
 
-if(EQUAL(_data,"")) exitWith {hint localize "STR_NOTF_didNotSelectToRemove";};
-if(!([_value] call TON_fnc_isnumber)) exitWith {hint localize "STR_NOTF_notNumberFormat";};
-if(parseNumber(_value) <= 0) exitWith {hint localize "STR_NOTF_enterAmountRemove";};
-if(EQUAL(ITEM_ILLEGAL(_data),1) && ([west,visiblePosition player,100] call life_fnc_nearUnits)) exitWith {titleText["This is an illegal item and cops are near by, you cannot dispose of the evidence","PLAIN"]};
-if(player != vehicle player) exitWith {titleText["You cannot remove an item when you are in a vehicle.","PLAIN"]};
-if(!([false,_data,(parseNumber _value)] call life_fnc_handleInv)) exitWith {hint localize "STR_NOTF_couldNotRemoveThatMuch";};
+if(EQUAL(_data,"")) exitWith {[localize "STR_NOTF_didNotSelectToRemove", false] spawn quickNotif;};
+if(!([_value] call TON_fnc_isnumber)) exitWith {[localize "STR_NOTF_notNumberFormat", false] spawn quickNotif;};
+if(parseNumber(_value) <= 0) exitWith {[localize "STR_NOTF_enterAmountRemove", false] spawn quickNotif;};
+if(EQUAL(ITEM_ILLEGAL(_data),1) && ([west,visiblePosition player,100] call life_fnc_nearUnits)) exitWith {titleText["Ceci est un objet illégal, la police va vous voir si vous vous en débarassez devant eux","PLAIN"]};
+if(player != vehicle player) exitWith {titleText["Vous ne pouvez pas lâcher cet objet dans le véhicule","PLAIN"]};
+if(!([false,_data,(parseNumber _value)] call life_fnc_handleInv)) exitWith {[localize "STR_NOTF_couldNotRemoveThatMuch", false] spawn quickNotif;};
 
-hint format [localize "STR_NOTF_removedFromInventory",(parseNumber _value),(localize ITEM_NAME(_data))];
+[format[localize "STR_NOTF_removedFromInventory",(parseNumber _value),(localize ITEM_NAME(_data))], false] spawn notif;
 	
 [] call life_fnc_p_updateMenu;

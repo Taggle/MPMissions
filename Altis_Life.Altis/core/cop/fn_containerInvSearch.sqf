@@ -12,7 +12,7 @@ _container = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 if(isNull _container) exitWith {};
 
 _containerInfo = _container GVAR ["Trunk",[]];
-if(EQUAL(count _containerInfo,0)) exitWith {hint localize "STR_Cop_ContainerEmpty"};
+if(EQUAL(count _containerInfo,0)) exitWith {[localize "STR_Cop_ContainerEmpty", false] spawn quickNotif;};
 
 _value = 0;
 _illegalValue = 0;
@@ -37,5 +37,5 @@ if(_value > 0) then {
 	_container SVAR ["Trunk",[[],0],true];
 	[_container] remoteExecCall ["TON_fnc_updateHouseTrunk",2];
 } else {
-	hint localize "STR_Cop_NoIllegalCOntainer";
+	[localize "STR_Cop_NoIllegalCOntainer", false] spawn quickNotif;
 };

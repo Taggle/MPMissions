@@ -12,7 +12,7 @@ _classname = lbData[20302,(lbCurSel 20302)];
 _index =  lbvalue[20302,(lbCurSel 20302)];
 
 if (isNil "_classname" || _classname == "") exitWith {
-	hint localize "STR_Select_Vehicle_Pump";
+	[localize "STR_Select_Vehicle_Pump", false] spawn quickNotif;
 	vehiclefuelList = [];
 	life_action_inUse = false;
 	closeDialog 0;
@@ -29,7 +29,7 @@ _fueltoput= ((SliderPosition 20901)-(floor(_fuelnow * _fueltank)));
 _setfuell = _fuelnow + (_fueltoput/_fueltank);
 _timer = ((_fueltoput * .25)/100);
 if (_car distance player > 10 && vehicle player != player) exitWith {
-	hint localize "STR_Distance_Vehicle_Pump";
+	[localize "STR_Distance_Vehicle_Pump", false] spawn quickNotif;
 	vehiclefuelList = [];
 	life_action_inUse = false;
 	closeDialog 0;
@@ -66,7 +66,7 @@ if ((BANK - (_fueltoput * life_fuelPrices))> 0)then {
 	};
 	5 cutText ["","PLAIN"];
 	if (_car distance player > 10 || vehicle player != player) then {
-		hint localize "STR_Distance_Vehicle_Pump";
+		[localize "STR_Distance_Vehicle_Pump", false] spawn quickNotif;
 		vehiclefuelList = [];
 		life_is_processing = false;
 		life_action_inUse = false;
@@ -77,7 +77,7 @@ if ((BANK - (_fueltoput * life_fuelPrices))> 0)then {
 		[0] call SOCK_fnc_updatePartial;
 	};
 } else {
-	hint localize "STR_NOTF_NotEnoughMoney";
+	[localize "STR_NOTF_NotEnoughMoney", false] spawn quickNotif;
 };
 
 vehiclefuelList = [];

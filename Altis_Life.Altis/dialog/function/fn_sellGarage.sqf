@@ -16,7 +16,7 @@ _vid = lbValue[2802,(lbCurSel 2802)];
 _pid = steamid;
 
 if(isNil "_vehicle") exitWith {hint localize "STR_Garage_Selection_Error"};
-if((time - life_action_delay) < 1.5) exitWith {hint localize "STR_NOTF_ActionDelay";};
+if((time - life_action_delay) < 1.5) exitWith {[localize "STR_NOTF_ActionDelay", false] spawn quickNotif;};
 if(!isClass (missionConfigFile >> CONFIG_LIFE_VEHICLES >> _vehicleLife)) then {
 	_vehicleLife = "Default"; //Use Default class if it doesn't exist
 	diag_log format["%1: LifeCfgVehicles class doesn't exist",_vehicle];
@@ -52,7 +52,7 @@ if(life_HC_isActive) then {
 	[_vid,_pid,_sellPrice,player,life_garage_type] remoteExecCall ["TON_fnc_vehicleDelete",RSERV];
 };
 
-hint format[localize "STR_Garage_SoldCar",[_sellPrice] call life_fnc_numberText];
+[format[localize "STR_Garage_SoldCar",[_sellPrice] call life_fnc_numberText], false] spawn notif;
 ADD(BANK,_sellPrice);
 [1] call SOCK_fnc_updatePartial;
 

@@ -13,16 +13,16 @@ _price = M_CONFIG(getNumber,"VirtualItems",_type,"sellPrice");
 if(EQUAL(_price,-1)) exitWith {};
 
 _amount = ctrlText 2405;
-if(!([_amount] call TON_fnc_isnumber)) exitWith {hint localize "STR_Shop_Virt_NoNum";};
+if(!([_amount] call TON_fnc_isnumber)) exitWith {[localize "STR_Shop_Virt_NoNum", false] spawn quickNotif;};
 _amount = parseNumber (_amount);
-if(_amount > (ITEM_VALUE(_type))) exitWith {hint localize "STR_Shop_Virt_NotEnough"};
-if((time - life_action_delay) < 0.2) exitWith {hint localize "STR_NOTF_ActionDelay";};
+if(_amount > (ITEM_VALUE(_type))) exitWith {[localize "STR_Shop_Virt_NotEnough", false] spawn quickNotif;};
+if((time - life_action_delay) < 1) exitWith {[localize "STR_NOTF_ActionDelay", false] spawn quickNotif;};
 life_action_delay = time;
 
 _price = (_price * _amount);
 _name = M_CONFIG(getText,"VirtualItems",_type,"displayName");
 if(([false,_type,_amount] call life_fnc_handleInv)) then {
-	hint format[localize "STR_Shop_Virt_SellItem",_amount,(localize _name),[_price] call life_fnc_numberText];
+	[format[localize "STR_Shop_Virt_SellItem",_amount,(localize _name),[_price] call life_fnc_numberText], false] spawn notif;
 	ADD(CASH,_price);
 	[] call life_fnc_virt_update;
 	playSound "Achat";

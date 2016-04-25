@@ -9,13 +9,13 @@
 private ["_serviceCost"];
 disableSerialization;
 private["_search","_ui","_progress","_cP","_pgText"];
-if(life_action_inUse) exitWith {hint localize "STR_NOTF_Action"};
+if(life_action_inUse) exitWith {[localize "STR_NOTF_Action", false] spawn quickNotif;};
 
 _serviceCost = LIFE_SETTINGS(getNumber,"service_chopper");
 _search = nearestObjects[getPos air_sp, ["Air"],10];
 
-if(EQUAL(count _search,0)) exitWith {hint localize "STR_Service_Chopper_NoAir"};
-if(CASH < _serviceCost) exitWith {hint localize "STR_Serive_Chopper_NotEnough"};
+if(EQUAL(count _search,0)) exitWith {[localize "STR_Service_Chopper_NoAir", false] spawn quickNotif;};
+if(CASH < _serviceCost) exitWith {[localize "STR_Serive_Chopper_NotEnough", false] spawn quickNotif;};
 
 life_action_inUse = true;
 5 cutRsc ["life_progress","PLAIN"];
@@ -34,7 +34,7 @@ for "_i" from 0 to 1 step 0 do {
 	if(_cP >= 1) exitWith {};
 };
 
-if(!alive SEL(_search,0) || SEL(_search,0) distance air_sp > 15) exitWith {life_action_inUse = false; hint localize "STR_Service_Chopper_Missing"};
+if(!alive SEL(_search,0) || SEL(_search,0) distance air_sp > 15) exitWith {life_action_inUse = false; [localize "STR_Service_Chopper_Missing", false] spawn quickNotif;};
 
 SUB(CASH,_serviceCost);
 if(!local SEL(_search,0)) then {
@@ -46,5 +46,5 @@ if(!local SEL(_search,0)) then {
 SEL(_search,0) setDamage 0;
 
 5 cutText ["","PLAIN"];
-titleText [localize "STR_Service_Chopper_Done","PLAIN"];
+[localize "STR_Service_Chopper_Done", false] spawn quickNotif;
 life_action_inUse = false;

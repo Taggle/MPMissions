@@ -12,7 +12,7 @@ _isMineral = true;
 if(isNull _vehicle) exitWith {};
 
 if(!isNil {_vehicle GVAR "mining"}) exitWith {
-	hint localize "STR_NOTF_DeviceIsMining";
+	[localize "STR_NOTF_DeviceIsMining", false] spawn notif;
 };
 
 if(fuel _vehicle == 0) exitWith {
@@ -24,7 +24,7 @@ life_action_inUse = true; //Lock out the interaction menu for a bit..
 
 _weight = [_vehicle] call life_fnc_vehicleWeight;
 if((_weight select 1) >= (_weight select 0)) exitWith {
-	hint localize "STR_NOTF_DeviceFull";
+	[localize "STR_NOTF_DeviceFull", false] spawn notif;
 	life_action_inUse = false;
 };
 //check if we are in the resource zone for any of the resources
@@ -82,7 +82,7 @@ for[{_i = 0},{_i < count(_resourceCfg)},{_i = _i + 1}] do {
 
 
 if(_zone == "") exitWith {
-	hint localize "STR_NOTF_notNearResource";
+	[localize "STR_NOTF_notNearResource", false] spawn notif;
 	life_action_inUse = false;
 };
 

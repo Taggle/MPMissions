@@ -8,7 +8,7 @@
 */
 private "_item";
 disableSerialization;
-if(EQUAL(lbCurSel 2005,-1)) exitWith {hint localize "STR_ISTR_SelectItemFirst";};
+if(EQUAL(lbCurSel 2005,-1)) exitWith {[localize "STR_ISTR_SelectItemFirst", false] spawn quickNotif;};
 _item = CONTROL_DATA(2005);
 
 switch (true) do {
@@ -57,14 +57,14 @@ switch (true) do {
 	};
 
 	case (EQUAL(_item,"spikeStrip")): {
-		if(!isNull life_spikestrip) exitWith {hint localize "STR_ISTR_SpikesDeployment"};
+		if(!isNull life_spikestrip) exitWith {[localize "STR_ISTR_SpikesDeployment", false] spawn quickNotif;};
 		if(([false,_item,1] call life_fnc_handleInv)) then {
 			[] spawn life_fnc_spikeStrip;
 		};
 	};
 
 	case (EQUAL(_item,"fuelFull")): {
-		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};
+		if(vehicle player != player) exitWith {[localize "STR_ISTR_RefuelInVehicle", false] spawn quickNotif;};
 		[] spawn life_fnc_jerryRefuel;
 	};
 
@@ -88,7 +88,7 @@ switch (true) do {
 	};
 
 	default {
-		hint localize "STR_ISTR_NotUsable";
+		[localize "STR_ISTR_NotUsable", false] spawn quickNotif;
 	};
 };
 

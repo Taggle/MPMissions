@@ -51,6 +51,12 @@ life_smartphoneTarget = ObjNull;
 
 life_drink = 0;
 life_drug_level = 0;
+message1_active = false;
+message2_active = false;
+message3_active = false;
+message4_active = false;
+message5_active = false;
+message6_active = false;
 
 //Settings
 life_settings_enableSidechannel = GVAR_PNAS["life_enableSidechannel",true];

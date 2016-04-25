@@ -9,8 +9,9 @@
 private["_maxGather","_resource","_amount","_maxGather","_requiredItem"];
 if (life_action_inUse) exitWith {};
 if((vehicle player) != player) exitWith {};
-if((player GVAR "restrained")) exitWith {hint localize "STR_NOTF_isrestrained";};
-if((player GVAR "playerSurrender")) exitWith {hint localize "STR_NOTF_surrender";};
+if((player GVAR "restrained")) exitWith {[localize "STR_NOTF_isrestrained", false] spawn quickNotif;};
+if((player GVAR "playerSurrender")) exitWith {[localize "STR_NOTF_surrender", false] spawn quickNotif;};
+if ((player getVariable['ACE_Captives_isSurrendering',false])) exitWith {[localize "STR_NOTF_surrender", false] spawn quickNotif;};
 
 life_action_inUse = true;
 _zone = "";
@@ -55,7 +56,7 @@ if(_exit) exitWith {life_action_inUse = false;};
 _amount = round(random(_maxGather)) + 1;
 _diff = [_resource,_amount,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(_diff == 0) exitWith {
-	hint localize "STR_NOTF_InvFull";
+	[localize "STR_NOTF_InvFull", false] spawn quickNotif;
 	life_action_inUse = false;
 };
 

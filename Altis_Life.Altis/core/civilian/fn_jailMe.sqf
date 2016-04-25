@@ -54,7 +54,7 @@ switch (true) do {
 	case (_bail): {
 		life_is_arrested = false;
 		life_bail_paid = false;
-		hint localize "STR_Jail_Paid";
+		[localize "STR_Jail_Paid", false] spawn quickNotif;
 		serv_wanted_remove = [player];
 		player setPos (getMarkerPos "jail_release");
 		
@@ -83,7 +83,7 @@ switch (true) do {
 	
 	case (alive player && !_esc && !_bail): {
 		life_is_arrested = false;
-		hint localize "STR_Jail_Released";
+		[localize "STR_Jail_Released", false] spawn quickNotif;
 		
 		if(life_HC_isActive) then {
 			[getPlayerUID player] remoteExecCall ["HC_fnc_wantedRemove",HC_Life];

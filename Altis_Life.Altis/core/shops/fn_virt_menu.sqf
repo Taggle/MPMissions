@@ -27,7 +27,7 @@ if(_exit) exitWith {};
 
 if(!(EQUAL(_license,""))) then {
 	_flag = M_CONFIG(getText,"Licenses",_license,"side");
-	if(!(LICENSE_VALUE(_license,_flag))) exitWith {hint localize "STR_Shop_Veh_NoLicense"; _exit = true;};
+	if(!(LICENSE_VALUE(_license,_flag))) exitWith {[localize "STR_Shop_Veh_NoLicense", false] spawn notif; _exit = true;};
 };
 if(_exit) exitWith {};
 
@@ -52,7 +52,7 @@ if(!(EQUAL(_levelValue,-1))) then {
 		};
 	};
 };
-if(_exit) exitWith {hint _levelMsg;};
+if(_exit) exitWith {[_levelMsg, false] spawn notif;};
 
 createDialog "shops_menu";
 

@@ -13,4 +13,4 @@ params [
 
 if(EQUAL(_value,0) OR EQUAL(_from,"") OR EQUAL(_from,profileName)) exitWith {}; //No
 ADD(BANK,_value);
-hint format["%1 has wire transferred $%2 to you",_from,[_value] call life_fnc_numberText];
+[format["%1 has wire transferred $%2 to you",_from,[_value] call life_fnc_numberText], false] spawn notif;

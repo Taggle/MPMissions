@@ -150,7 +150,7 @@ switch (_code) do {
 				if (!(isNil "_list")) then {
 					_house = nearestObject [(ASLtoATL (getPosASL _list)), "House"];
 					if (_house getVariable ["locked", false]) then {
-						hint localize "STR_House_ContainerDeny";
+						[localize "STR_House_ContainerDeny", false] spawn quickNotif;
 					} else {
 						[_list] spawn life_fnc_openInventory;
 					};

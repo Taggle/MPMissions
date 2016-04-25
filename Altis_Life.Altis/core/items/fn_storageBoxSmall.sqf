@@ -18,3 +18,4 @@ clearMagazineCargoGlobal _object;
 clearItemCargoGlobal _object;
 clearBackpackCargoGlobal _object;
 hint localize "STR_NOTF_PlaceContainer";
+[localize "STR_NOTF_PlaceContainer", false] spawn quickNotif;

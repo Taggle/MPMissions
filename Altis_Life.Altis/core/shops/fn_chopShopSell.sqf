@@ -17,7 +17,7 @@ _nearVehicles = nearestObjects [getMarkerPos life_chopShop,_chopable,25];
 _vehicle = SEL(_nearVehicles,_vehicle);
 if(isNull _vehicle) exitWith {};
 
-hint localize "STR_Shop_ChopShopSelling";
+[localize "STR_Shop_ChopShopSelling", false] spawn notif;
 life_action_inUse = true;
 _price2 = CASH + _price;
 

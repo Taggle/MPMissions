@@ -27,7 +27,7 @@ if(life_HC_isActive) then {
 	[1,grpPlayer] remoteExecCall ["TON_fnc_updateGang",RSERV];
 };
 
-hint format[localize "STR_ATM_DepositSuccessG",[_value] call life_fnc_numberText];
+[format[localize "STR_ATM_DepositSuccessG",[_value] call life_fnc_numberText], false] spawn notif;
 [] call life_fnc_atmMenu;
 [6] call SOCK_fnc_updatePartial; //Silent Sync
 

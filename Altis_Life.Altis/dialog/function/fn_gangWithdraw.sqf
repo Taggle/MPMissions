@@ -29,7 +29,7 @@ if(life_HC_isActive) then {
 	[1,grpPlayer] remoteExec ["TON_fnc_updateGang",RSERV]; //Update the database.
 };
 
-hint format [localize "STR_ATM_WithdrawSuccessG",[_value] call life_fnc_numberText];
+[format [localize "STR_ATM_WithdrawSuccessG",[_value] call life_fnc_numberText], false] spawn notif;
 [] call life_fnc_atmMenu;
 [6] call SOCK_fnc_updatePartial;
 
