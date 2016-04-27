@@ -48,6 +48,14 @@ class VirtualShops {
 		items[] = { "turtle_soup", "turtle_raw" };
 	};
 
+	class bar {
+		name = "Bar d'Altis";
+		side = "civ";
+		license = "";
+		level[] = { "", "", -1, "" };
+		items[] = { "coffee", "waterBottle", "vinRouge", "whiskey", "biere", "heineken", "tequila" };
+	};
+
 	class coffee {
 		name = "STR_Shops_Coffee";
 		side = "civ";
@@ -638,6 +646,61 @@ class VirtualItems {
 		illegal = false;
 		edible = 100;
 		icon = "icons\ico_waterBottle.paa";
+	};
+
+	class vinRouge {
+		variable = "vinRouge";
+		displayName = "STR_Item_VinRouge";
+		weight = 1;
+		buyPrice = 250;
+		sellPrice = 125;
+		illegal = false;
+		edible = 20;
+		icon = "\data_shark\textures\icons\Items\vin.paa";
+	};
+
+	class whiskey {
+		variable = "whiskey";
+		displayName = "STR_Item_Whiskey";
+		weight = 1;
+		buyPrice = 300;
+		sellPrice = 150;
+		illegal = false;
+		edible = 20;
+		icon = "\data_shark\textures\icons\Items\Whiskey.paa";
+	};
+
+	class biere {
+		variable = "biere";
+		displayName = "STR_Item_Biere";
+		weight = 1;
+		buyPrice = 125;
+		sellPrice = 65;
+		illegal = false;
+		edible = 60;
+		icon = "\data_shark\textures\icons\Items\biere.paa";
+	};
+
+	class heineken {
+		variable = "heineken";
+		displayName = "STR_Item_Heineken";
+		weight = 1;
+		buyPrice = 300;
+		sellPrice = 150;
+		illegal = false;
+		edible = 60;
+		icon = "\data_shark\textures\icons\Items\heineken.paa";
+	};
+
+	class tequila {
+		variable = "tequila";
+		displayName = "STR_Item_Tequila";
+		weight = 1;
+		buyPrice = 300;
+		sellPrice = 150;
+		illegal = false;
+		edible = 60;
+		icon = "\data_shark\textures\icons\Items\tequila.paa";
 	};
 
 	//Food
