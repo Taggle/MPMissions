@@ -70,6 +70,48 @@ switch (true) do {
 		};
 	};
 
+	case (EQUAL(_item,"coneL")): {
+		if(!isNull life_coneL) exitWith {["Vous avez déjà un cône lumineux en déploiement", false] spawn quickNotif;};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_coneL;
+		};
+	};
+
+	case (EQUAL(_item,"barriere")): {
+		if(!isNull life_coneL) exitWith {["Vous avez déjà une barrière en déploiement", false] spawn quickNotif;};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_barriere;
+		};
+	};
+
+	case (EQUAL(_item,"barriereRef")): {
+		if(!isNull life_barriereRef) exitWith {["Vous avez déjà une barrière refermable en déploiement", false] spawn quickNotif;};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_barriereRef;
+		};
+	};
+
+	case (EQUAL(_item,"barriereL")): {
+		if(!isNull life_barriereL) exitWith {["Vous avez déjà une barrière lumineuse en déploiement", false] spawn quickNotif;};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_barriereL;
+		};
+	};
+
+	case (EQUAL(_item,"bornebeton")): {
+		if(!isNull life_bornebeton) exitWith {["Vous avez déjà une barrière en beton en déploiement", false] spawn quickNotif;};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_bornebeton;
+		};
+	};
+
+	case (EQUAL(_item,"cordonsecurite")): {
+		if(!isNull life_cordonsecurite) exitWith {["Vous avez déjà un cordon de sécurité en déploiement", false] spawn quickNotif;};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_cordonsecurite;
+		};
+	};
+
 	case (EQUAL(_item,"fuelFull")): {
 		if(vehicle player != player) exitWith {[localize "STR_ISTR_RefuelInVehicle", false] spawn quickNotif;};
 		[] spawn life_fnc_jerryRefuel;

@@ -20,7 +20,7 @@ if(!isNil "life_action_coneDeploy") then {player removeAction life_action_coneDe
 if(isNull _cone) exitWith {life_cone = ObjNull;};
 
 _cone setPos [(getPos _cone select 0),(getPos _cone select 1),0];
-_cone setDamage 1;
+_cone allowDamage false;
 
 life_action_conePickup = player addAction["Ramasser cone",life_fnc_packupCone,"",0,false,false,"",
 ' _cone = nearestObjects[getPos player,["Roadcone_F"],8] select 0; !isNil "_cone" && !isNil {(_cone getVariable "item")}'];

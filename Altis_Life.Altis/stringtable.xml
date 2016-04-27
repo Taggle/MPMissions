@@ -5503,6 +5503,30 @@
 			<Original>Cone</Original>
 			<French>Cône</French>
 		</Key>
+		<Key ID="STR_Item_ConeL">
+			<Original>Light Cone</Original>
+			<French>Cône Lumineux</French>
+		</Key>
+		<Key ID="STR_Item_Barriere">
+			<Original>Road Barrier</Original>
+			<French>Barrière</French>
+		</Key>
+		<Key ID="STR_Item_BarriereRef">
+			<Original>Bar Gate</Original>
+			<French>Barrière refermable</French>
+		</Key>
+		<Key ID="STR_Item_BarriereL">
+			<Original>Road Barriere (Light)</Original>
+			<French>Barrière lumineuse</French>
+		</Key>
+		<Key ID="STR_Item_BorneBeton">
+			<Original>Stone Barrier</Original>
+			<French>Barrière en béton</French>
+		</Key>
+		<Key ID="STR_Item_Cordon">
+			<Original>Safety Line</Original>
+			<French>Cordon de sécurité</French>
+		</Key>
 		<Key ID="STR_Item_Apples">
 			<Original>Apples</Original>
 			<Czech>jablka</Czech>

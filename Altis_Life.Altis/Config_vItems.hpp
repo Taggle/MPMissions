@@ -13,7 +13,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "defibrillator", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
 	};
 
 	class med_market {
@@ -21,7 +21,7 @@ class VirtualShops {
 		side = "med";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach", "defibrillator" };
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach", "cone", "coneL", "cordonsecurite", "barriere", "barriereL" };
 	};
 
 	class rebel {
@@ -29,7 +29,7 @@ class VirtualShops {
 		side = "civ";
 		license = "rebel";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
 	};
 
 	class gang {
@@ -61,7 +61,7 @@ class VirtualShops {
 		side = "";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "coffee", "donuts", "redgull", "toolkit", "fuelFull"};
+		items[] = { "coffee", "donuts", "redgull", "fuelFull"};
 	};
 
 	class drugdealer {
@@ -141,7 +141,7 @@ class VirtualShops {
 		side = "cop";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
+		items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "fuelFull", "defusekit", "cone", "coneL", "barriereRef", "barriere", "barriereL", "bornebeton", "cordonsecurite" };
 	};
 };
 
@@ -230,12 +230,78 @@ class VirtualItems {
 	class cone {
 		variable = "cone";
 		displayName = "STR_Item_Cone";
-		weight = 3;
+		weight = 1;
 		buyPrice = 10;
 		sellPrice = 5;
 		illegal = true;
 		edible = -1;
 		icon = "\data_shark\textures\icons\Items\cone.paa";
+	};
+
+	class coneL {
+		variable = "coneL";
+		displayName = "STR_Item_ConeL";
+		weight = 1;
+		buyPrice = 15;
+		sellPrice = 7;
+		illegal = true;
+		edible = -1;
+		icon = "\data_shark\textures\icons\Items\cone.paa";
+	};
+
+	class barriere {
+		variable = "barriere";
+		displayName = "STR_Item_Barriere";
+		weight = 1;
+		buyPrice = 20;
+		sellPrice = 10;
+		illegal = true;
+		edible = -1;
+		icon = "\data_shark\textures\icons\Items\barrier.paa";
+	};
+
+	class barriereRef {
+		variable = "barriereRef";
+		displayName = "STR_Item_BarriereRef";
+		weight = 1;
+		buyPrice = 10;
+		sellPrice = 5;
+		illegal = true;
+		edible = -1;
+		icon = "\data_shark\textures\icons\Items\barrier_openable.paa";
+	};
+
+	class barriereL {
+		variable = "barriereL";
+		displayName = "STR_Item_BarriereL";
+		weight = 1;
+		buyPrice = 15;
+		sellPrice = 7;
+		illegal = true;
+		edible = -1;
+		icon = "\data_shark\textures\icons\Items\barrier.paa";
+	};
+
+	class bornebeton {
+		variable = "bornebeton";
+		displayName = "STR_Item_BorneBeton";
+		weight = 2;
+		buyPrice = 40;
+		sellPrice = 20;
+		illegal = true;
+		edible = -1;
+		icon = "\data_shark\textures\icons\Items\barrier_solid.paa";
+	};
+
+	class cordonsecurite {
+		variable = "cordonsecurite";
+		displayName = "STR_Item_Cordon";
+		weight = 2;
+		buyPrice = 25;
+		sellPrice = 12;
+		illegal = true;
+		edible = -1;
+		icon = "\data_shark\textures\icons\Items\safetyline.paa";
 	};
 
 	class lockpick {

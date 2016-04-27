@@ -395,9 +395,21 @@ class Life_Client_Core {
 		class overdose {};
 	};
 
-	class Shark_Items {
-		file = "Shark\Items";
+	class Shark_Placeables {
+		file = "Shark\Placeables";
 		class Cone {};
 		class packupCone {};
+		class ConeL {};
+		class packupConeL {};
+		class barriere {};
+		class packupBarriere {};
+		class barriereRef {};
+		class packupBarriereRef {};
+		class barriereL {};
+		class packupBarriereL {};
+		class bornebeton {};
+		class packupBornebeton {};
+		class cordonsecurite {};
+		class packupCordonsecurite {};
 	};
 };
