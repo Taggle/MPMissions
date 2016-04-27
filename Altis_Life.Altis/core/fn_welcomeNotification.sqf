@@ -26,9 +26,9 @@ _text2 = _display displayCtrl 1102;
 
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
-_message = _message + "Useful Links (click on the links to open your browser)<br /><br />";
-_message = _message + " <a href='https://github.com/ArmaLife/Altis' color='#56BDD6'>ArmaLife</a> -- Our Website, check it out for the latest news and updates.<br /><br />";
-_message = _message + "TeamSpeak 3 Address: ADDRESS HERE  <br /><br />";
+_message = _message + "Bienvenue sur le serveur SharkLife !<br /><br />";
+_message = _message + "N'oubliez pas que vous êtes sur un serveur RP, ne faites pas de tir à vue, faites toujours des sommations. Lisez le reste des règles sur le forum.<br /><br />";
+_message = _message + "TS3: ts3.sharklife.fr   Site internet : sharklife.fr  <br /><br />";
 
 
 //Fill only the first text
