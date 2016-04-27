@@ -5923,6 +5923,26 @@
 			<Portuguese>Garrafa d'água</Portuguese>
 			<Polish>Butelka wody</Polish>
 		</Key>
+		<Key ID="STR_Item_VinRouge">
+			<Original>Red Wine</Original>
+			<French>Vin Rouge</French>
+		</Key>
+		<Key ID="STR_Item_Whiskey">
+			<Original>Whiskey</Original>
+			<French>Whiskey</French>
+		</Key>
+		<Key ID="STR_Item_Biere">
+			<Original>Beer</Original>
+			<French>Bière</French>
+		</Key>
+		<Key ID="STR_Item_Heineken">
+			<Original>Heineken Beer</Original>
+			<French>Bière Heineken</French>
+		</Key>
+		<Key ID="STR_Item_Tequila">
+			<Original>Tequila</Original>
+			<French>Tequila</French>
+		</Key>
 		<Key ID="STR_Item_Coffee">
 			<Original>Coffee</Original>
 			<Czech>Káva</Czech>
@@ -7372,6 +7392,27 @@
 			<Italian>Stock Negozio</Italian>
 			<Portuguese>Estoque</Portuguese>
 			<Polish>Sklep oferta</Polish>
+		</Key>
+		<Key ID="STR_MISC_StPubIntox">
+			<Original>%1 has passed out drunk in public!</Original>
+			<French>%1 s'est évanoui en public !</French>
+		</Key>
+		<Key ID="STR_MISC_AlreadyDrinking">
+			<Original>You are already drinking some booze</Original>
+			<French>Ne tentez pas de mélanges hasardeux avec l'alcool, ça peut peut être fatal</French>
+		</Key>
+		<Key ID="STR_MISC_WestIndNoNo">
+			<Original>No drinking on duty</Original>
+			<French>Kein Trinkwasser im Dienst</French>
+			<French>Vous êtes flic, on ne touche pas à ce genre de substances en service !</French>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut">
+			<Original>You have passed out</Original>
+			<French>Vous vous êtes évanoui !</French>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut1">
+			<Original>What the hell happened to me??</Original>
+			<French>Qu'est-ce qui vous est arrivé??</French>
 		</Key>
 	</Package>
 	<Package name="Player_Interaction">

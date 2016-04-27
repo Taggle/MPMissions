@@ -396,6 +396,13 @@ class Life_Client_Core {
 		class overdose {};
 	};
 
+	class Shark_Items {
+		file = "Shark\Items";
+		class biere {};
+		class moonshine {};
+		class whiskey {};
+	};
+
 	class Shark_Placeables {
 		file = "Shark\Placeables";
 		class Cone {};

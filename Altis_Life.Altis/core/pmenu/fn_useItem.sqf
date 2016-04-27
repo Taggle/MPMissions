@@ -22,10 +22,43 @@ switch (true) do {
 					titleText[localize "STR_ISTR_RedGullEffect","PLAIN"];
 					[player, "Drink"] call CBA_fnc_globalSay3d;
 					player enableFatigue false;
-					waitUntil {!alive player OR ((time - life_redgull_effect) > (3 * 60))};
+					waitUntil {!alive player OR ((time - life_redgull_effect) > (8 * 60))};
 					player enableFatigue true;
 				};
 			};
+		};
+	};
+
+	case (_item in ["whiskey","tequila"]): {
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			life_thirst = life_thirst + 20;
+			if((player getVariable ["inDrink",FALSE])) exitWith {[localize "STR_MISC_AlreadyDrinking", false] spawn quickNotif;};
+			if(isNil "life_drink") then {life_drink = 0;};
+			life_drink = life_drink + 0.10;
+			//if (life_drink < 0.07) exitWith {};
+			[] spawn life_fnc_whiskey;
+		};
+	};
+
+	case (EQUAL(_item,"moonshine")): {
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			life_thirst = life_thirst + 20;
+			if((player getVariable ["inDrink",FALSE])) exitWith {[localize "STR_MISC_AlreadyDrinking", false] spawn quickNotif;};
+			if(isNil "life_drink") then {life_drink = 0;};
+			life_drink = life_drink + 0.15;
+			//if (life_drink < 0.07) exitWith {};
+			[] spawn life_fnc_moonshine;
+		};
+	};
+
+	case (_item in ["biere","heineken","redWine"]): {
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			life_thirst = life_thirst + 60;
+			if((player getVariable ["inDrink",FALSE])) exitWith {[localize "STR_MISC_AlreadyDrinking", false] spawn quickNotif;};
+			if(isNil "life_drink") then {life_drink = 0;};
+			life_drink = life_drink + 0.05;
+			//if (life_drink < 0.07) exitWith {};
+			[] spawn life_fnc_biere;
 		};
 	};
 
