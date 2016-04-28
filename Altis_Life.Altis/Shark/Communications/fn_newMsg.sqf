@@ -24,7 +24,7 @@ switch(_type) do{
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";
 		ctrlShow[88885, true];
 };
-		[[life_smartphoneTarget,_msg,player,0],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
+[life_smartphoneTarget,_msg,player,0] remoteExec ["TON_fnc_handleMessages",2];
 		hint format["Tu as envoyé %1 a message: %2",name life_smartphoneTarget,_msg];
 			ctrlShow[88885, true];
 		closeDialog 88883;
@@ -36,7 +36,7 @@ switch(_type) do{
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";
 		ctrlShow[888895,true];
 };
-		[[ObjNull,_msg,player,1],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
+[ObjNull,_msg,player,1] remoteExec ["TON_fnc_handleMessages",2];
 		_to = "Police";
 		hint format["Tu as envoyé %1 a message: %2",_to,_msg];
 		ctrlShow[888895,true];
@@ -47,7 +47,7 @@ switch(_type) do{
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";
 		ctrlShow[888896,true];
 };
-		[[ObjNull,_msg,player,2],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
+[ObjNull,_msg,player,2] remoteExec ["TON_fnc_handleMessages",2];
 		_to = "The Admins";
 		hint format["Tu as envoyé %1 a message: %2",_to,_msg];
 		ctrlShow[888896,true];
@@ -60,7 +60,7 @@ switch(_type) do{
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";
 		ctrlShow[888899,true];
 };
-		[[ObjNull,_msg,player,3],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
+[ObjNull,_msg,player,3] remoteExec ["TON_fnc_handleMessages",2];
 		hint format["Vous avez envoyé un message à toutes les unités EMS.",_msg];
 		ctrlShow[888899,true];
 		closeDialog 887890;
@@ -72,7 +72,7 @@ switch(_type) do{
 		};
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";
 	};
-		[[life_smartphoneTarget,_msg,player,4],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
+[life_smartphoneTarget,_msg,player,4] remoteExec ["TON_fnc_handleMessages",2];
 		hint format["Administrateur Message envoyé à: %1 - Message: %2",name life_smartphoneTarget,_msg];
 		closeDialog 88883;
 	};
@@ -88,7 +88,7 @@ switch(_type) do{
 };
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";
 	};
-		[[ObjNull,_msg,player,5],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
+[ObjNull,_msg,player,5] remoteExec ["TON_fnc_handleMessages",2];
 		hint format["Un message envoyé à tous les admin: %1",_msg];
 		closeDialog 887890;
 	};

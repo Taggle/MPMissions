@@ -20,7 +20,7 @@ switch(_type) do{	case 0:	{		lbClear _cPlayerList;
 				_cPlayerList lbSetData [(lbSize _cPlayerList)-1,str(_x)];
 			};
 		} forEach playableUnits;
-				[[getPlayerUID player, player],"TON_fnc_msgRequest",false] spawn life_fnc_MP;
+[getPlayerUID player, player] remoteExec ["TON_fnc_msgRequest",2];
 		ctrlEnable[887892,false];
 	};
 	case 1:	{		_msg = [_data select 2,40] call KRON_StrLeft;

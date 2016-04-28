@@ -126,7 +126,7 @@ class Life_RscHud
 	text = "";
 };
 
-class Life_RscListNBox{	
+class Life_RscListNBox {	
 	style = 16;	
 	type = 102;	
 	shadow = 0;	
