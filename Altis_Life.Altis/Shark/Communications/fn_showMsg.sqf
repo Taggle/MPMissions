@@ -10,7 +10,8 @@ _cMessageShow = _display displayCtrl 88887;
 _cMessageHeader = _display displayCtrl 88890;
 _data = call compile (_cMessageList lnbData[_index,0]);
 _status = "[OFFLINE]";
-{    if(getPlayerUID _x == _data select 0) then    {        _status = "[ONLINE]";
+{    
+	if(getPlayerUID _x == _data select 0) then    {        _status = "[ONLINE]";
         life_smartphoneTarget = _x;
         ctrlEnable[887892,true];
     };
