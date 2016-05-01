@@ -110,6 +110,9 @@ class CfgRemoteExec {
         F(TON_fnc_vehicleUpdate,SERVER)
         F(TON_fnc_handleMessages,SERVER)
         F(TON_fnc_msgRequest,SERVER)
+        F(TON_fnc_playerLogged,SERVER)
+        F(TON_fnc_changePrice,SERVER)
+        F(TON_fnc_getUpdate,SERVER)
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)
