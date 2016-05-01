@@ -22,9 +22,13 @@ _vehicle = life_vehicles select parseNumber(_vehicle);
 if((lbCurSel 2702) == -1) exitWith {["Vous n'avez pas selectionné une personne", false] spawn quickNotif;};
 _sel = lbCurSel _plist;
 _unit = _plist lbData _sel;
-_unit = call compile format["%1", _unit];
+if(_unit == "PlayerQuiRegarde") then {
+  _unit = cursorObject;
+} else {
+	_unit = call compile format["%1", _unit];
 if(isNull _unit OR isNil "_unit") exitWith {};
 if(_unit == player) exitWith {};
+if(player distance _unit > 3) exitWith {["Cette personne n'est pas proche de vous", false] spawn quickNotif;};
 
 _uid = getPlayerUID _unit;
 _owners = _vehicle GVAR "vehicle_info_owners";

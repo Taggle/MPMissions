@@ -26,17 +26,22 @@ lbClear _inv;
 lbClear _near;
 lbClear _near_i;
 
+_near lbAdd format["%1","*Cible*"];
+_near lbSetData [(lbSize _near)-1,"PlayerQuiRegarde"];
+_near_i lbAdd format["%1","*Cible*"];
+_near_i lbSetData [(lbSize _near)-1,"PlayerQuiRegarde"];
+
 //Near players
 _near_units = [];
-{ if(player distance _x < 10) then {_near_units pushBack _x};} forEach playableUnits;
+{ if(alive _x && _x != player) then {_near_units pushBack _x; }; } foreach playableUnits;
+_sortedList = [_near_units,[],{_x getVariable ["realname",""]},"ASCEND"] call BIS_fnc_sortBy;
+
 {
-	if(!isNull _x && alive _x && player distance _x < 10 && _x != player) then {
-		_near lbAdd format["%1 - %2",_x GVAR ["realname",name _x], side _x];
-		_near lbSetData [(lbSize _near)-1,str(_x)];
-		_near_i lbAdd format["%1 - %2",_x GVAR ["realname",name _x], side _x];
-		_near_i lbSetData [(lbSize _near)-1,str(_x)];
-	};
-} forEach _near_units;
+	_near lbAdd format["%1 - %2",_x getVariable ["realname",""], side _x];
+	_near lbSetData [(lbSize _near)-1,str(_x)];
+	_near_i lbAdd format["%1 - %2",_x getVariable ["realname",""], side _x];
+	_near_i lbSetData [(lbSize _near)-1,str(_x)];
+} foreach _sortedList;
 
 _mstatus ctrlSetStructuredText parseText format["<img size='1.3' image='icons\ico_bank.paa'/> <t size='0.8px'>$%1</t><br/><img size='1.2' image='icons\ico_money.paa'/> <t size='0.8'>$%2</t>",[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 ctrlSetText[2009,format["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
