@@ -29,3 +29,5 @@
 #include "AltisPhone.hpp"
 #include "smartphone.hpp"
 #include "revoke_license.hpp"
+#include "dynmarket_changeprice.hpp"
+#include "dynmarket_prices.hpp"
