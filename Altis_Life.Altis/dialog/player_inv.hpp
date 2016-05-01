@@ -255,6 +255,16 @@ class playerSettings {
 			h = (1 / 25);
 		};
 
+		class ButtonDynMarket : Life_RscButtonMenu {
+			idc = 2022;
+			text = "Bourse";
+			onButtonClick = "createDialog ""life_dynmarket_prices"";";
+			x = 0.1 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.805;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+
 		class ButtonAdminMenu: Life_RscButtonMenu {
 			idc = 2021;
 			text = "$STR_PM_AdminMenu";
