@@ -3295,23 +3295,23 @@
 			<Polish>Zostałeś wyciągnięty z pojazdu</Polish>
 		</Key>
 		<Key ID="STR_NOTF_GivenItem">
-			<Original>%1 has gave you %2 %3.</Original>
+			<Original>Someone has gave you %2 %3.</Original>
 			<Czech>%1 vám již dal% %2 3.</Czech>
 			<Spanish>%1 te ha dado %2 %3</Spanish>
 			<Russian></Russian>
 			<German>%1 hat dir %2 %3 gegeben</German>
-			<French>%1 vous a donné %2 %3</French>
+			<French>Quelqu'un vous a donné %2 %3</French>
 			<Italian>%1 ti ha dato %2 %3</Italian>
 			<Portuguese>%1 lhe deu %2 %3</Portuguese>
 			<Polish>%1 dał ci %2 %3</Polish>
 		</Key>
 		<Key ID="STR_NOTF_GivenMoney">
-			<Original>%1 has given you $%2.</Original>
+			<Original>Someone has given you $%2.</Original>
 			<Czech>%1 vám dal $ %2.</Czech>
 			<Spanish>%1 te ha dado $%2</Spanish>
 			<Russian></Russian>
 			<German>%1 hat dir $%2 gegeben</German>
-			<French>%1 vous a donné $%2</French>
+			<French>Quelqu'un vous a donné $%2</French>
 			<Italian>%1 ti ha dato €%2</Italian>
 			<Portuguese>%1 lhe deu R$%2</Portuguese>
 			<Polish>%1 dał ci $%2</Polish>
@@ -3837,9 +3837,9 @@
 			<German>Sie haben keinen Spieler auswählen.</German>
 		</Key>
 		<Key ID="STR_NOTF_givenKeysTo">
-			<Original>You have given %1 keys to your %2.</Original>
+			<Original>You have given someone keys to your %2.</Original>
 			<Czech>Dali jste %1 klíče ke svému %2.</Czech>
-			<French>Vous avez donné %1 touches à votre %2.</French>
+			<French>Vous avez donné à quelqu'un les clés de votre %2.</French>
 			<Spanish>Usted ha dado %1 llaves de su %2.</Spanish>
 			<Italian>Hai dato %1 chiavi della vostra %2.</Italian>
 			<Polish>Dałeś %1 klucze do %2.</Polish>
@@ -4323,12 +4323,12 @@
 			<Polish>%1 zapłacił mandat.</Polish>
 		</Key>
 		<Key ID="STR_Cop_Ticket_GUI_Given">
-			<Original>%1 has given you a ticket for $%2</Original>
+			<Original>Someone has given you a ticket for $%2</Original>
 			<Czech>%1 vám dal lístek za $ %2</Czech>
 			<Spanish>%1 te ha dado un tiquete de $%2</Spanish>
 			<Russian></Russian>
 			<German>%1 hat dir einen Strafzettel von $%2 gegeben</German>
-			<French>%1 vous a donné une amende de $%2</French>
+			<French>Quelqu'un vous a donné une amende de $%2</French>
 			<Italian>%1 ti ha dato una multa di €%2</Italian>
 			<Portuguese>%1 lhe aplicou uma multa de R$%2</Portuguese>
 			<Polish>%1 dał ci mandat w wysokości $%2</Polish>
