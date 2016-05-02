@@ -394,6 +394,7 @@ class Life_Client_Core {
 		file = "Shark\Functions";
 		class breathalyzer {};
 		class overdose {};
+		class airsoft {};
 	};
 
 	class Shark_Items {

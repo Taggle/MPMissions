@@ -225,13 +225,14 @@ switch (_code) do {
 	//O Key
 	case 24: {
 		if(_shift) then {
-			if (soundVolume != 1) then {
-				1 fadeSound 1;
-				systemChat localize "STR_MISC_soundnormal";
-			} else {
-				1 fadeSound 0.1;
-				systemChat localize "STR_MISC_soundfade";
-			};
+			
+			switch (player getVariable["Earplugs",0]) do
+        	{
+                case 0: {hintSilent "Volume 10%"; 1 fadeSound 0.1; player setVariable["Earplugs", 10]; };
+                case 10: {hintSilent "Volume 40%"; 1 fadeSound 0.4; player setVariable["Earplugs", 40]; };
+                case 40: {hintSilent "Volume 70%"; 1 fadeSound 0.7; player setVariable["Earplugs", 70]; };
+                case 70: {hintSilent "Volume 100%"; 1 fadeSound 1; player setVariable["Earplugs", 0]; };
+        	};
 		};
 	};
 

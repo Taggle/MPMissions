@@ -113,6 +113,8 @@ class CfgRemoteExec {
         F(TON_fnc_playerLogged,SERVER)
         F(TON_fnc_changePrice,SERVER)
         F(TON_fnc_getUpdate,SERVER)
+        F(life_fnc_voirpapiers,SERVER)
+        F(mocap_fnc_strokeeffects,SERVER)
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)

@@ -8674,7 +8674,7 @@
 	</Package>
 	<Package name="Markers_names">
 		<Key ID="STR_MAR_Fish_Market">
-			<Original>Fish Market</Original>
+			<Original>Poissonerie</Original>
 			<Czech>Rybí trh</Czech>
 			<Spanish>Mercado de Pescado</Spanish>
 			<Russian></Russian>
@@ -8684,7 +8684,7 @@
 			<Italian>Pescivendolo</Italian>
 		</Key>
 		<Key ID="STR_MAR_Hospital">
-			<Original>Hospital</Original>
+			<Original>Hôpital</Original>
 			<Czech>Nemocnice</Czech>
 			<Spanish>Hospital</Spanish>
 			<Russian></Russian>
@@ -8694,7 +8694,7 @@
 			<Italian>Ospedale</Italian>
 		</Key>
 		<Key ID="STR_MAR_Police_Station">
-			<Original>Police Station</Original>
+			<Original>Commissariat</Original>
 			<Czech>Policejní stanice</Czech>
 			<Spanish>Estación de Policia</Spanish>
 			<Russian></Russian>
@@ -8704,7 +8704,7 @@
 			<Italian>Questura di polizia</Italian>
 		</Key>
 		<Key ID="STR_MAR_Police_Air_HQ">
-			<Original>Police Air HQ</Original>
+			<Original>Air HQ de la Police</Original>
 			<Czech>Police Air HQ</Czech>
 			<Spanish>Cuartel Aéreo Policial</Spanish>
 			<Russian></Russian>
@@ -8713,7 +8713,7 @@
 			<Polish>Baza lotnicza policji</Polish>
 		</Key>
 		<Key ID="STR_MAR_Iron_Mine">
-			<Original>Iron Mine</Original>
+			<Original>Mine de fer</Original>
 			<Czech>Železný důl</Czech>
 			<Spanish>Mina de Hierro</Spanish>
 			<Russian></Russian>
@@ -8723,7 +8723,7 @@
 			<Italian>Miniera di ferro</Italian>
 		</Key>
 		<Key ID="STR_MAR_Salt_Mine">
-			<Original>Salt Mine</Original>
+			<Original>Mine de sel</Original>
 			<Czech>Solný důl</Czech>
 			<Spanish>Mina de Sal</Spanish>
 			<Russian></Russian>
@@ -8733,7 +8733,7 @@
 			<Italian>Salina</Italian>
 		</Key>
 		<Key ID="STR_MAR_Salt_Processing">
-			<Original>Salt Processing</Original>
+			<Original>Traitement du sel</Original>
 			<Czech>sůl Processing</Czech>
 			<Spanish>Procesador de Sal</Spanish>
 			<Russian></Russian>
@@ -8743,7 +8743,7 @@
 			<Italian>Processo del sale</Italian>
 		</Key>
 		<Key ID="STR_MAR_Altis_Corrections">
-			<Original>Altis Corrections</Original>
+			<Original>Centre correctionnel d'Altis</Original>
 			<Czech>Altis Opravy</Czech>
 			<Spanish>Prisión de Altis</Spanish>
 			<Russian></Russian>
@@ -8753,7 +8753,7 @@
 			<Italian>Penitenziario di Altis</Italian>
 		</Key>
 		<Key ID="STR_MAR_Police_HQ">
-			<Original>Police HQ</Original>
+			<Original>QG de la Police</Original>
 			<Czech>Police HQ</Czech>
 			<Spanish>Comisaria de Policía</Spanish>
 			<Russian></Russian>
@@ -8762,7 +8762,7 @@
 			<Polish>KG Policji Altis</Polish>
 		</Key>
 		<Key ID="STR_MAR_Coast_Guard">
-			<Original>Coast Guard</Original>
+			<Original>Garde-Côtes</Original>
 			<Czech>pobřežní hlídka</Czech>
 			<Spanish>Guardia Costera</Spanish>
 			<Russian></Russian>
@@ -8772,7 +8772,7 @@
 			<Italian>Guardia Costiera</Italian>
 		</Key>
 		<Key ID="STR_MAR_Rebel_Outpost">
-			<Original>Rebel Outpost</Original>
+			<Original>Camp rebelle</Original>
 			<Czech>Rebel Outpost</Czech>
 			<Spanish>Base Rebelde</Spanish>
 			<Russian></Russian>
@@ -8781,7 +8781,7 @@
 			<Polish>Baza rebeliantów</Polish>
 		</Key>
 		<Key ID="STR_MAR_Air_Shop">
-			<Original>Air Shop</Original>
+			<Original>Concessionaire aérien</Original>
 			<Czech>Air Shop</Czech>
 			<Spanish>Tienda Aérea</Spanish>
 			<Russian></Russian>
@@ -8790,7 +8790,7 @@
 			<Polish>Sklep lotniczy</Polish>
 		</Key>
 		<Key ID="STR_MAR_Truck_Shop">
-			<Original>Truck Shop</Original>
+			<Original>Concessionaire de camions</Original>
 			<Czech>Truck Shop</Czech>
 			<Spanish>Tienda de Camiones</Spanish>
 			<Russian></Russian>
@@ -8800,7 +8800,7 @@
 			<Italian>Concessionaria Camion</Italian>
 		</Key>
 		<Key ID="STR_MAR_Oil_Processing">
-			<Original>Oil Processing</Original>
+			<Original>Traitement du pétrole</Original>
 			<Czech>Zpracování olej</Czech>
 			<Spanish>Procesador de Petróleo</Spanish>
 			<Russian></Russian>
@@ -8810,7 +8810,7 @@
 			<Italian></Italian>
 		</Key>
 		<Key ID="STR_MAR_Iron_processing">
-			<Original>Iron Processing</Original>
+			<Original>Traitement du fer</Original>
 			<Czech>Zpracování Iron</Czech>
 			<Spanish>Procesador de Hierro</Spanish>
 			<Russian></Russian>
@@ -8819,7 +8819,7 @@
 			<Polish>Huta żelaza</Polish>
 		</Key>
 		<Key ID="STR_MAR_Sand_Mine">
-			<Original>Sand Mine</Original>
+			<Original>Mine de sable</Original>
 			<Czech>písek Mine</Czech>
 			<Spanish>Mina de Arena</Spanish>
 			<Russian></Russian>
@@ -8828,7 +8828,7 @@
 			<Polish>Kopalnia piasku</Polish>
 		</Key>
 		<Key ID="STR_MAR_Chop_Shop">
-			<Original>Chop Shop</Original>
+			<Original>Acheteur de véhicules volés</Original>
 			<Czech>Chop Shop</Czech>
 			<Spanish>Desguace Clandestino</Spanish>
 			<Russian></Russian>
@@ -8837,7 +8837,7 @@
 			<Polish>Dziupla</Polish>
 		</Key>
 		<Key ID="STR_MAR_Cocaine_Processing">
-			<Original>Cocaine Processing</Original>
+			<Original>Transformation de la cocaïne</Original>
 			<Czech>Zpracování kokain</Czech>
 			<Spanish>Procesador de Cocaína</Spanish>
 			<Russian></Russian>
@@ -8846,7 +8846,7 @@
 			<Polish>Oczyszczanie kokainy</Polish>
 		</Key>
 		<Key ID="STR_MAR_Copper_Mine">
-			<Original>Copper Mine</Original>
+			<Original>Mine de cuivre</Original>
 			<Czech>měděný důl</Czech>
 			<Spanish>Mina de Cobre</Spanish>
 			<Russian></Russian>
@@ -8864,7 +8864,7 @@
 			<Polish>Bankomat</Polish>
 		</Key>
 		<Key ID="STR_MAR_Local_Bank">
-			<Original>Local Bank</Original>
+			<Original>Banque</Original>
 			<Czech>místní bankovní</Czech>
 			<Spanish>Banco Local</Spanish>
 			<Russian></Russian>
@@ -8873,7 +8873,7 @@
 			<Polish>Bank Altis</Polish>
 		</Key>
 		<Key ID="STR_MAR_Car_Shop">
-			<Original>Car Shop</Original>
+			<Original>Concessionaire</Original>
 			<Czech>Auto Shop</Czech>
 			<Spanish>Tienda de Coches</Spanish>
 			<Russian></Russian>
@@ -8882,7 +8882,7 @@
 			<Polish>Salon samochodowy</Polish>
 		</Key>
 		<Key ID="STR_MAR_Hospital_Clinic">
-			<Original>Hospital/Clinic</Original>
+			<Original>Clinique</Original>
 			<Czech>Nemocnice / Klinika</Czech>
 			<Spanish>Hospital/Clínica</Spanish>
 			<Russian></Russian>
@@ -8891,7 +8891,7 @@
 			<Polish>Klinika Altis</Polish>
 		</Key>
 		<Key ID="STR_MAR_Diamond_Mine">
-			<Original>Diamond Mine</Original>
+			<Original>Mine de diamant</Original>
 			<Czech>Diamond Mine</Czech>
 			<Spanish>Mina de Diamantes</Spanish>
 			<Russian></Russian>
@@ -8900,7 +8900,7 @@
 			<Polish>Kopalnia diamentów</Polish>
 		</Key>
 		<Key ID="STR_MAR_General_Store">
-			<Original>General Store</Original>
+			<Original>Magasin général</Original>
 			<Czech>Obchod se smíšeným zbožím</Czech>
 			<Spanish>Tienda General</Spanish>
 			<Russian></Russian>
@@ -8909,7 +8909,7 @@
 			<Polish>Sklep techniczny</Polish>
 		</Key>
 		<Key ID="STR_MAR_Civilian_Shops">
-			<Original>Civilian Shops</Original>
+			<Original>Magasins civils</Original>
 			<Czech>civilní Obchody</Czech>
 			<Spanish>Tiendas Civiles</Spanish>
 			<Russian></Russian>
@@ -8918,7 +8918,7 @@
 			<Polish>Sklepy dla cywilów</Polish>
 		</Key>
 		<Key ID="STR_MAR_Boat_Shop">
-			<Original>Boat Shop</Original>
+			<Original>Concessionaire de bateaux</Original>
 			<Czech>Lodní Shop</Czech>
 			<Spanish>Tienda de Barcos</Spanish>
 			<Russian></Russian>
@@ -8927,7 +8927,7 @@
 			<Polish>Sklep z łodziami</Polish>
 		</Key>
 		<Key ID="STR_MAR_Bruce_Outfits">
-			<Original>Bruce's Outback Outfits</Original>
+			<Original>Friperie</Original>
 			<Czech>Bruceovy Outback Oblečení</Czech>
 			<Spanish>Tienda de Ropa</Spanish>
 			<Russian></Russian>
@@ -8935,7 +8935,7 @@
 			<Polish>Sklep odzieżowy</Polish>
 		</Key>
 		<Key ID="STR_MAR_Apple_Field">
-			<Original>Apple Field</Original>
+			<Original>Champ de pommes</Original>
 			<Czech>Apple Field</Czech>
 			<Spanish>Campo de Manzanas</Spanish>
 			<Russian></Russian>
@@ -8944,7 +8944,7 @@
 			<Polish>Sad jabłkowy</Polish>
 		</Key>
 		<Key ID="STR_MAR_Peaches_Field">
-			<Original>Peaches Field</Original>
+			<Original>Champ de pêches</Original>
 			<Czech>broskve Field</Czech>
 			<Spanish>Campo de Melocotones</Spanish>
 			<Russian></Russian>
@@ -8953,7 +8953,7 @@
 			<Polish>Sad brzoskwiniowy</Polish>
 		</Key>
 		<Key ID="STR_MAR_Market">
-			<Original>Market</Original>
+			<Original>Marché</Original>
 			<Czech>Trh</Czech>
 			<Spanish>Mercado</Spanish>
 			<Russian></Russian>
@@ -8962,7 +8962,7 @@
 			<Polish>Market spożywczy</Polish>
 		</Key>
 		<Key ID="STR_MAR_Air_Service">
-			<Original>Air Service Station</Original>
+			<Original>Station-service pour véhicules aériens</Original>
 			<Czech>Stanice Air Service</Czech>
 			<Spanish>Estación de Servicio Aéreo</Spanish>
 			<Russian></Russian>
@@ -8971,7 +8971,7 @@
 			<Polish>Serwis lotniczy</Polish>
 		</Key>
 		<Key ID="STR_MAR_Channel_News">
-			<Original>Channel 7 News</Original>
+			<Original>Altis Telecom</Original>
 			<Czech>Channel 7 News</Czech>
 			<Spanish>Canal de Noticias 7</Spanish>
 			<Russian></Russian>
@@ -8980,7 +8980,7 @@
 			<Polish>Maszt nadawczy</Polish>
 		</Key>
 		<Key ID="STR_MAR_DMV">
-			<Original>DMV</Original>
+			<Original>Préfecture</Original>
 			<Czech>DMV</Czech>
 			<Spanish>Registro de Licencias</Spanish>
 			<Russian></Russian>
@@ -8990,7 +8990,7 @@
 			<Italian>Negozio Licenze</Italian>
 		</Key>
 		<Key ID="STR_MAR_Delivery_Missions">
-			<Original>Delivery Missions</Original>
+			<Original>Missions de livraisons</Original>
 			<Czech>Dodací mise</Czech>
 			<Spanish>Misiones de Entrega</Spanish>
 			<Russian></Russian>
@@ -9000,7 +9000,7 @@
 			<Italian>Missioni Postali</Italian>
 		</Key>
 		<Key ID="STR_MAR_Deliver_Package">
-			<Original>Deliver Package</Original>
+			<Original>Livrer colis</Original>
 			<Czech>doručit balíček</Czech>
 			<Spanish>Entregar Paquete</Spanish>
 			<Russian></Russian>
@@ -9010,7 +9010,7 @@
 			<Italian>Consegna il pacco</Italian>
 		</Key>
 		<Key ID="STR_MAR_Get_Delivery_Mission">
-			<Original>Get Delivery Mission</Original>
+			<Original>Obtenir mission de livraison</Original>
 			<Czech>Získat Delivery mise</Czech>
 			<Spanish>Empezar Misión de Entrega</Spanish>
 			<Russian></Russian>
@@ -9020,7 +9020,7 @@
 			<Italian>Ottieni una missione postale</Italian>
 		</Key>
 		<Key ID="STR_MAR_Diving_Shop">
-			<Original>Diving Shop</Original>
+			<Original>Boutique de plongée</Original>
 			<Czech>Potápění Shop</Czech>
 			<Spanish>Tienda de Buceo</Spanish>
 			<Russian></Russian>
@@ -9030,7 +9030,7 @@
 			<Italian>Negozio da Sub</Italian>
 		</Key>
 		<Key ID="STR_MAR_Drug_Dealer">
-			<Original>Drug Dealer</Original>
+			<Original>Dealer de drogues</Original>
 			<Czech>Drug prodejce</Czech>
 			<Spanish>Narcotraficante</Spanish>
 			<Russian></Russian>
@@ -9040,7 +9040,7 @@
 			<Italian>Spacciatore</Italian>
 		</Key>
 		<Key ID="STR_MAR_Sofia_Freight_Yard">
-			<Original>Sofia Freight Yard</Original>
+			<Original>Industrie du fret - Sofia</Original>
 			<Czech>Sofia Freight Yard</Czech>
 			<Spanish>Patio de Carga</Spanish>
 			<Russian></Russian>
@@ -9049,7 +9049,7 @@
 			<Polish>Terminal transportowy</Polish>
 		</Key>
 		<Key ID="STR_MAR_Diamond_Processing">
-			<Original>Diamond Processing</Original>
+			<Original>Traitement de diamant</Original>
 			<Czech>Diamond Processing</Czech>
 			<Spanish>Procesador de Diamante</Spanish>
 			<Russian></Russian>
@@ -9059,7 +9059,7 @@
 			<Italian>Processo diamanti</Italian>
 		</Key>
 		<Key ID="STR_MAR_Oil_Field">
-			<Original>Oil Field</Original>
+			<Original>Gisement de pétrole</Original>
 			<Czech>Ropné poles</Czech>
 			<Spanish>Campo de Petróleo</Spanish>
 			<Russian></Russian>
@@ -9069,7 +9069,7 @@
 			<Italian>Giacimento di Petrolio</Italian>
 		</Key>
 		<Key ID="STR_MAR_Weed_Field">
-			<Original>Marijuana Field</Original>
+			<Original>Champ de marijuana</Original>
 			<Czech>Marihuana Field</Czech>
 			<Spanish>Campo de Marihuana</Spanish>
 			<Russian></Russian>
@@ -9079,7 +9079,7 @@
 			<Italian>Campo di Marijuana</Italian>
 		</Key>
 		<Key ID="STR_MAR_Weed_Processing">
-			<Original>Marijuana Processing</Original>
+			<Original>Traitement de marijuana</Original>
 			<Czech>Zpracování marihuana</Czech>
 			<Spanish>Procesador de Marihuana</Spanish>
 			<Russian></Russian>
@@ -9089,7 +9089,7 @@
 			<Italian>Trattamento Marijuana</Italian>
 		</Key>
 		<Key ID="STR_MAR_Boat_Spawn">
-			<Original>Boat Spawn</Original>
+			<Original>Garage de bateaux</Original>
 			<Czech>Lodní potěr</Czech>
 			<Spanish>Spawn de Barcos</Spanish>
 			<Russian></Russian>
@@ -9099,7 +9099,7 @@
 			<Italian>Consegna Barche</Italian>
 		</Key>
 		<Key ID="STR_MAR_Copper_Processing">
-			<Original>Copper Processing</Original>
+			<Original>Traitement de cuivre</Original>
 			<Czech>Zpracování měď</Czech>
 			<Spanish>Procesador de Cobre</Spanish>
 			<Russian></Russian>
@@ -9109,7 +9109,7 @@
 			<Italian>Processo Rame</Italian>
 		</Key>
 		<Key ID="STR_MAR_Cocaine_Field">
-			<Original>Coca Field</Original>
+			<Original>Champ de cocaïne</Original>
 			<Czech>Coca Field</Czech>
 			<Spanish>Campo de Cocaína</Spanish>
 			<Russian></Russian>
@@ -9119,7 +9119,7 @@
 			<Italian>Campo di Cocaina</Italian>
 		</Key>
 		<Key ID="STR_MAR_Oil_Trader">
-			<Original>Oil Trader</Original>
+			<Original>Raffinage du pétrole</Original>
 			<Czech>olej Trader</Czech>
 			<Spanish>Comerciante de Petróleo</Spanish>
 			<Russian></Russian>
@@ -9129,7 +9129,7 @@
 			<Italian>Vendita Olio</Italian>
 		</Key>
 		<Key ID="STR_MAR_Salt_Trader">
-			<Original>Salt Trader</Original>
+			<Original>Acheteur de sel</Original>
 			<Czech>sůl Trader</Czech>
 			<Spanish>Comerciante de Sal</Spanish>
 			<Russian></Russian>
@@ -9139,7 +9139,7 @@
 			<Italian>Vendita Sale</Italian>
 		</Key>
 		<Key ID="STR_MAR_Diamond_Trader">
-			<Original>Diamond Trader</Original>
+			<Original>Traitement de diamant</Original>
 			<Czech>Diamond Trader</Czech>
 			<Spanish>Comerciante de Diamantes</Spanish>
 			<Russian></Russian>
@@ -9149,7 +9149,7 @@
 			<Italian>Vendita Diamanti</Italian>
 		</Key>
 		<Key ID="STR_MAR_Glass_Trader">
-			<Original>Glass Trader</Original>
+			<Original>Acheteur de verre</Original>
 			<Czech>sklo Trader</Czech>
 			<Spanish>Comerciante de Vidrio</Spanish>
 			<Russian></Russian>
@@ -9159,7 +9159,7 @@
 			<Italian>Vendita del Vetro</Italian>
 		</Key>
 		<Key ID="STR_MAR_Iron_Copper_Trader">
-			<Original>Iron / Copper Trader</Original>
+			<Original>Acheteur de Fer / Cuivre</Original>
 			<Czech>Žehlička / Měď Trader</Czech>
 			<Spanish>Comerciante de Hierro / Cobre</Spanish>
 			<Russian></Russian>
@@ -9169,7 +9169,7 @@
 			<Italian>Vendita del Ferro/Rame</Italian>
 		</Key>
 		<Key ID="STR_MAR_Sand_Processing">
-			<Original>Sand Processing</Original>
+			<Original>Traitement de sable</Original>
 			<Czech>Zpracování písek</Czech>
 			<Spanish>Procesador de Arena</Spanish>
 			<Russian></Russian>
@@ -9179,7 +9179,7 @@
 			<Italian>Processo Sabbia</Italian>
 		</Key>
 		<Key ID="STR_MAR_Gun_Store">
-			<Original>Gun Store</Original>
+			<Original>Armurerie</Original>
 			<Czech>Gun Store</Czech>
 			<Spanish>Tienda de Armas</Spanish>
 			<Russian></Russian>
@@ -9189,7 +9189,7 @@
 			<Italian>Armeria</Italian>
 		</Key>
 		<Key ID="STR_MAR_Heroin_Field">
-			<Original>Opium Poppy Field</Original>
+			<Original>Champ d'Héroïne</Original>
 			<Czech>Opium Poppy Field</Czech>
 			<Spanish>Campo de Opio</Spanish>
 			<Russian></Russian>
@@ -9198,7 +9198,7 @@
 			<Polish>Pole heroiny</Polish>
 		</Key>
 		<Key ID="STR_MAR_Heroin_Processing">
-			<Original>Heroin Processing</Original>
+			<Original>Traitement d'héroïne</Original>
 			<Czech>Zpracování heroin</Czech>
 			<Spanish>Procesador de Heroina</Spanish>
 			<Russian></Russian>
@@ -9216,7 +9216,7 @@
 			<Polish>Garaż</Polish>
 		</Key>
 		<Key ID="STR_MAR_Federal_Reserve">
-			<Original>Federal Reserve</Original>
+			<Original>Réserve fédérale</Original>
 			<Czech>federální rezervní systém</Czech>
 			<Spanish>Reserva Federal</Spanish>
 			<Russian></Russian>
@@ -9226,7 +9226,7 @@
 			<Italian>Banca Federale</Italian>
 		</Key>
 		<Key ID="STR_MAR_Highway_Patrol">
-			<Original>Highway Patrol Outpost</Original>
+			<Original>Comissariat de police</Original>
 			<Czech>Dálniční hlídka Outpost</Czech>
 			<Spanish>Puesto de Patrulla de Carretera</Spanish>
 			<Russian></Russian>
@@ -9236,7 +9236,7 @@
 			<Italian>Checkpoint di polizia</Italian>
 		</Key>
 		<Key ID="STR_MAR_Rock_Quarry">
-			<Original>Rock Quarry</Original>
+			<Original>Carrière de pierres</Original>
 			<Czech>kamenolomu</Czech>
 			<Spanish>Mina de Piedra</Spanish>
 			<Russian></Russian>
@@ -9246,7 +9246,7 @@
 			<Italian>Cava di Roccia</Italian>
 		</Key>
 		<Key ID="STR_MAR_Rock_Processing">
-			<Original>Rock Processing</Original>
+			<Original>Traitement de la pierre</Original>
 			<Czech>rock Processing</Czech>
 			<Spanish>Procesador de Piedra</Spanish>
 			<Russian></Russian>
@@ -9256,7 +9256,7 @@
 			<Italian>Processo Roccia</Italian>
 		</Key>
 		<Key ID="STR_MAR_Cement_Trader">
-			<Original>Cement Trader</Original>
+			<Original>Acheteur de ciment</Original>
 			<Czech>cement Trader</Czech>
 			<Spanish>Comerciante de Cemento</Spanish>
 			<Russian></Russian>
@@ -9266,7 +9266,7 @@
 			<Italian>Vendita del Cemento</Italian>
 		</Key>
 		<Key ID="STR_MAR_Turtle_Poaching">
-			<Original>Turtle Poaching</Original>
+			<Original>Présence de tortues</Original>
 			<Czech>Turtle pytláctví</Czech>
 			<Spanish>Caza de Tortugas</Spanish>
 			<Russian></Russian>
@@ -9275,7 +9275,7 @@
 			<Polish>Strefa występowania żółwi morskich</Polish>
 		</Key>
 		<Key ID="STR_MAR_Turtle_Dealer">
-			<Original>Turtle Dealer</Original>
+			<Original>Acheteur de tortues</Original>
 			<Czech>Turtle prodejce</Czech>
 			<Spanish>Traficante de Tortugas</Spanish>
 			<Russian></Russian>
@@ -9285,7 +9285,7 @@
 			<Italian>Vendita Tartarughe</Italian>
 		</Key>
 		<Key ID="STR_MAR_GoKart_Shop">
-			<Original>Go-Kart Shop</Original>
+			<Original>Boutique de Karting</Original>
 			<Czech>Go-Kart Shop</Czech>
 			<Spanish>Tienda de Go-Kart</Spanish>
 			<Russian></Russian>
@@ -9295,7 +9295,7 @@
 			<Italian>Parco Go-Kart</Italian>
 		</Key>
 		<Key ID="STR_MAR_Gold_Bars_Buyer">
-			<Original>Gold Bars Buyer</Original>
+			<Original>Acheteur d'or</Original>
 			<Czech>Gold Bary kupujícího</Czech>
 			<Spanish>Comprador de Oro</Spanish>
 			<Russian></Russian>
@@ -9345,7 +9345,7 @@
 			<Italian>Riserva di Caccia</Italian>
 		</Key>
 		<Key ID="STR_MAR_Bruce_New_Used_Auto">
-			<Original>Bruce's New and Used Auto's</Original>
+			<Original>Concessionaire de voitures</Original>
 			<Czech>Bruceovy nových i ojetých Autos</Czech>
 			<Spanish>Tienda de Autos Nuevos y Usados</Spanish>
 			<Russian></Russian>
@@ -9355,7 +9355,7 @@
 			<Italian>Automobili nuove e usate da Bruce</Italian>
 		</Key>
 		<Key ID="STR_MAR_Rebel_Clothing_Shop">
-			<Original>Rebel Clothing Shop</Original>
+			<Original>Vêtements rebelles</Original>
 			<Czech>Rebel Oblečení Shop</Czech>
 			<Spanish>Tienda de Ropa Rebelde</Spanish>
 			<Russian></Russian>
@@ -9364,7 +9364,7 @@
 			<Polish>Magazyn rebelianta</Polish>
 		</Key>
 		<Key ID="STR_MAR_Rebel_Weapon_Shop">
-			<Original>Rebel Weapon Shop</Original>
+			<Original>Armurerie rebelle</Original>
 			<Czech>Rebel obchodu se zbraněmi</Czech>
 			<Spanish>Tienda de Armas Rebeldes</Spanish>
 			<Russian></Russian>
@@ -9374,7 +9374,7 @@
 			<Italian>Armeria della Guerriglia</Italian>
 		</Key>
 		<Key ID="STR_MAR_Helicopter_Shop">
-			<Original>Helicopter Shop</Original>
+			<Original>Concessionaire aérien</Original>
 			<Czech>vrtulník Shop</Czech>
 			<Spanish>Tienda de Helicópteros</Spanish>
 			<Russian></Russian>
@@ -9383,7 +9383,7 @@
 			<Polish>Sklep lotniczy</Polish>
 		</Key>
 		<Key ID="STR_MAR_Station_Shop">
-			<Original>Fuel Station Store</Original>
+			<Original>Boutique de la station</Original>
 			<Czech>Palivo Store Station</Czech>
 			<Spanish>Tienda de Gasolinera</Spanish>
 			<Russian></Russian>
@@ -9392,7 +9392,7 @@
 			<Polish>Sklep OLLEN</Polish>
 		</Key>
 		<Key ID="STR_MAR_Rebel_Market">
-			<Original>Rebel Market</Original>
+			<Original>Marché rebelle</Original>
 			<Czech>Rebel Market</Czech>
 			<Spanish>Mercado Rebelde</Spanish>
 			<Russian></Russian>
@@ -9401,7 +9401,7 @@
 			<Polish>Market rebelianta</Polish>
 		</Key>
 		<Key ID="STR_MAR_Question_Dealer">
-			<Original>Question Dealer</Original>
+			<Original>Questionner dealer</Original>
 			<Czech>Otázka prodejce</Czech>
 			<Spanish>Informante</Spanish>
 			<Russian></Russian>
@@ -9411,7 +9411,7 @@
 			<Italian>Minaccia Spacciatore</Italian>
 		</Key>
 		<Key ID="STR_MAR_Service_helicopter">
-			<Original>Service Helicopter</Original>
+			<Original>Service hélicoptères</Original>
 			<Czech>Service Vrtulník</Czech>
 			<Spanish>Helicóptero de Servicio</Spanish>
 			<Russian></Russian>
@@ -9421,7 +9421,7 @@
 			<Italian>Servizio Aereo</Italian>
 		</Key>
 		<Key ID="STR_MAR_Clothing_Store">
-			<Original>Clothing Store</Original>
+			<Original>Friperie</Original>
 			<Czech>Obchod s oblečením</Czech>
 			<Spanish>Tienda de Ropa</Spanish>
 			<Russian></Russian>
@@ -9431,7 +9431,7 @@
 			<Italian>Vestiario</Italian>
 		</Key>
 		<Key ID="STR_MAR_Medical_Assistance">
-			<Original>Medical Assistance</Original>
+			<Original>Assistance médicale</Original>
 			<Czech>lékařská pomoc</Czech>
 			<Spanish>Asistencia Médica</Spanish>
 			<Russian></Russian>
@@ -9441,7 +9441,7 @@
 			<Italian>Assistenza Medica</Italian>
 		</Key>
 		<Key ID="STR_MAR_Store_vehicle_in_Garage">
-			<Original>Store vehicle in Garage</Original>
+			<Original>Ranger véhicule dans le garage</Original>
 			<Czech>Skladovat vozidlo v garáži</Czech>
 			<Spanish>Guardar vehículo en el Garaje</Spanish>
 			<Russian></Russian>
@@ -9451,7 +9451,7 @@
 			<Italian>Deposita veicolo in garage</Italian>
 		</Key>
 		<Key ID="STR_MAR_Cop_Item_Shop">
-			<Original>Cop Item Shop</Original>
+			<Original>Boutique police</Original>
 			<Czech>Cop Item Shop</Czech>
 			<Spanish>Tienda de Objetos de Policía</Spanish>
 			<Russian></Russian>
@@ -9460,7 +9460,7 @@
 			<Polish>Zaopatrzenie</Polish>
 		</Key>
 		<Key ID="STR_MAR_Cop_Clothing_Shop">
-			<Original>Cop Clothing Shop</Original>
+			<Original>Vestiaire police</Original>
 			<Czech>Cop Oblečení Shop</Czech>
 			<Spanish>Tienda de Ropa de Policía</Spanish>
 			<Russian></Russian>
@@ -9469,7 +9469,7 @@
 			<Polish>Umundurowanie</Polish>
 		</Key>
 		<Key ID="STR_MAR_Cop_Weapon_Shop">
-			<Original>Cop Weapon Shop</Original>
+			<Original>Armurerie police</Original>
 			<Czech>Cop obchodu se zbraněmi</Czech>
 			<Spanish>Tienda de Armas de Policía</Spanish>
 			<Russian></Russian>
@@ -9478,7 +9478,7 @@
 			<Polish>Broń policji</Polish>
 		</Key>
 		<Key ID="STR_MAR_Patrol_Officer_Weapon_Shop">
-			<Original>Patrol Officer Weapon Shop</Original>
+			<Original>Boutique sergent</Original>
 			<Czech>Policistou obchodu se zbraněmi</Czech>
 			<Spanish>Tienda de Armas de Oficial de Patrulla</Spanish>
 			<Russian></Russian>
@@ -9486,7 +9486,7 @@
 			<Polish>Broń patrolowa</Polish>
 		</Key>
 		<Key ID="STR_MAR_Sergeant_Weapon_Shop">
-			<Original>Sergeant Weapon Shop</Original>
+			<Original>Boutique sergent-major</Original>
 			<Czech>Seržant obchodu se zbraněmi</Czech>
 			<Spanish>Tienda de Armas de Oficial de Sargento</Spanish>
 			<Russian></Russian>
@@ -9494,7 +9494,7 @@
 			<Polish>Broń sierżanta</Polish>
 		</Key>
 		<Key ID="STR_MAR_W_E_Vehicle Shop">
-			<Original>Vehicle Shop</Original>
+			<Original>Concessionaire de véhicules</Original>
 			<Czech>Shop Vehicle</Czech>
 			<Spanish>Tienda de Vehículos</Spanish>
 			<Russian></Russian>
@@ -9503,7 +9503,7 @@
 			<Polish>Pojazdy - sklep</Polish>
 		</Key>
 		<Key ID="STR_MAR_Process_Sand">
-			<Original>Process Sand</Original>
+			<Original>Traiter sable</Original>
 			<Czech>proces Písek</Czech>
 			<Spanish>Procesar Arena</Spanish>
 			<Russian></Russian>
@@ -9513,7 +9513,7 @@
 			<Italian>Lavorazione Sabbia</Italian>
 		</Key>
 		<Key ID="STR_MAR_Process_Rock">
-			<Original>Process Rock</Original>
+			<Original>Traiter la pierre</Original>
 			<Czech>proces rock</Czech>
 			<Spanish>Procesar Piedra</Spanish>
 			<Russian></Russian>
@@ -9523,7 +9523,7 @@
 			<Italian>Processo Roccia</Italian>
 		</Key>
 		<Key ID="STR_MAR_Wong_Food_Cart">
-			<Original>Wongs Food Cart</Original>
+			<Original>Marché</Original>
 			<Czech>Křídla Food košík</Czech>
 			<Spanish>Kiosko de Wong</Spanish>
 			<Russian></Russian>
@@ -9532,7 +9532,7 @@
 			<Polish>Bar u Wonga</Polish>
 		</Key>
 		<Key ID="STR_MAR_Open_Vault">
-			<Original>Open Vault</Original>
+			<Original>Ouvrir coffre</Original>
 			<Czech>otevřená Vault</Czech>
 			<Spanish>Abrir Bóveda</Spanish>
 			<Russian></Russian>
@@ -9541,7 +9541,7 @@
 			<Polish>Otwórz skarbiec</Polish>
 		</Key>
 		<Key ID="STR_MAR_Fix_Vault">
-			<Original>Fix Vault</Original>
+			<Original>Réparer coffre</Original>
 			<Czech>Fix Vault</Czech>
 			<Spanish>Reparar Bóveda</Spanish>
 			<Russian></Russian>
@@ -9551,7 +9551,7 @@
 			<Italian>Ripara Cassaforte</Italian>
 		</Key>
 		<Key ID="STR_MAR_FED_Front">
-			<Original>Federal Reserve - Front Entrance</Original>
+			<Original>Réserve fédérale - Entrée principale</Original>
 			<Czech>Federální rezervní systém - přední vchod</Czech>
 			<Spanish>Reserva Federal - Entrada Principal</Spanish>
 			<Russian></Russian>
@@ -9560,7 +9560,7 @@
 			<Polish>Rezerwa federalna - wejście główne</Polish>
 		</Key>
 		<Key ID="STR_MAR_FED_Side">
-			<Original>Federal Reserve - Side Entrance</Original>
+			<Original>Réserve fédérale - Entrée secondaire</Original>
 			<Czech>Federální rezervní systém - Boční vchod</Czech>
 			<Spanish>Reserva Federal - Entrada Lateral</Spanish>
 			<Russian></Russian>
@@ -9569,7 +9569,7 @@
 			<Polish>Rezerwa federalna - wejście boczne</Polish>
 		</Key>
 		<Key ID="STR_MAR_FED_Back">
-			<Original>Federal Reserve - Back Entrance</Original>
+			<Original>Réserve fédérale - Entrée secondaire</Original>
 			<Czech>Federální rezervní systém - zadní vchod</Czech>
 			<Spanish>Reserva Federal - Entrada Trasera</Spanish>
 			<Russian></Russian>
@@ -9578,7 +9578,7 @@
 			<Polish>Rezerwa federalna - wejście tylne</Polish>
 		</Key>
 		<Key ID="STR_MAR_FED_Vault">
-			<Original>Federal Reserve - Vault View</Original>
+			<Original>Caméras de la banque</Original>
 			<Czech>Federální rezervní systém - Vault View</Czech>
 			<Spanish>Reserva Federal - Vista a la Bóveda</Spanish>
 			<Russian></Russian>
@@ -9587,7 +9587,7 @@
 			<Polish>Rezerwa federalna - skarbiec</Polish>
 		</Key>
 		<Key ID="STR_MAR_FED_Off_display">
-			<Original>Turn Off Display</Original>
+			<Original>Éteindre l'écran</Original>
 			<Czech>Vypnout displej</Czech>
 			<Spanish>Apagar el Display</Spanish>
 			<Russian></Russian>
@@ -9596,7 +9596,7 @@
 			<Polish>Wyłącz wyświetlacz</Polish>
 		</Key>
 		<Key ID="STR_MAR_Armament">
-			<Original>Armament</Original>
+			<Original>Armement</Original>
 			<Czech>Vyzbrojení</Czech>
 			<Spanish>Armamento</Spanish>
 			<Russian></Russian>
@@ -9605,7 +9605,7 @@
 			<Polish>Zbrojownia gangu</Polish>
 		</Key>
 		<Key ID="STR_MAR_EMS_Item_Shop">
-			<Original>EMS Item Shop</Original>
+			<Original>Items Médecin</Original>
 			<Czech>EMS Item Shop</Czech>
 			<Spanish>Tienda de Objetos de Médico</Spanish>
 			<Russian></Russian>
@@ -9614,7 +9614,7 @@
 			<Polish>Wyposażenie medyczne</Polish>
 		</Key>
 		<Key ID="STR_MAR_EMS_Clothing_Shop">
-			<Original>EMS Clothing Shop</Original>
+			<Original>Vestiaire EMS</Original>
 			<Czech>EMS Oblečení Shop</Czech>
 			<Spanish>Tienda de Ropa de Médico</Spanish>
 			<Russian></Russian>
@@ -9623,7 +9623,7 @@
 			<Polish>Sklep odzieżowy EMS</Polish>
 		</Key>
 		<Key ID="STR_MAR_Helicopter_Garage">
-			<Original>Helicopter Garage</Original>
+			<Original>Garage d'hélicoptères</Original>
 			<Czech>vrtulník Garáž</Czech>
 			<Spanish>Garaje de Helicóptero</Spanish>
 			<Russian></Russian>
@@ -9632,7 +9632,7 @@
 			<Polish>Hangar lotniczy</Polish>
 		</Key>
 		<Key ID="STR_MAR_W_Car_Garage">
-			<Original>Car Garage</Original>
+			<Original>Garage</Original>
 			<Czech>Car Garage</Czech>
 			<Spanish>Garaje de Coches</Spanish>
 			<Russian></Russian>
@@ -9642,7 +9642,7 @@
 			<Italian>Garage Automobili</Italian>
 		</Key>
 		<Key ID="STR_MAR_Pay_Bail">
-			<Original>Pay Bail</Original>
+			<Original>Payer caution</Original>
 			<Czech>Pay Bail</Czech>
 			<Spanish>Pagar Fianza</Spanish>
 			<Russian></Russian>

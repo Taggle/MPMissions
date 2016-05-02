@@ -22,15 +22,16 @@ switch (side _unit) do
 		if(_typ == "flic") then {
 			switch ( _lvl ) do
 			{
-				case 1: { _rang = "Officier"; };
-				case 2: { _rang = "Sergent"; };
-				case 3: { _rang = "Sergent-Major"; };
-				case 4: { _rang = "Lieutenant"; };
-				case 5: { _rang = "Capitaine"; };
-				case 6: { _rang = "Major"; };
-				case 7: { _rang = "Lieutenant-Colonel"; };
-				case 8: { _rang = "Shériff Adjoint"; };
-				case 9: { _rang = "Shériff"; };
+				case 1: { _rang = "Stagiaire"; };
+				case 2: { _rang = "Officier"; };
+				case 3: { _rang = "Sergent"; };
+				case 4: { _rang = "Sergent-Major"; };
+				case 5: { _rang = "Lieutenant"; };
+				case 6: { _rang = "Capitaine"; };
+				case 7: { _rang = "Major"; };
+				case 8: { _rang = "Lieutenant-Colonel"; };
+				case 9: { _rang = "Shériff Adjoint"; };
+				case 10: { _rang = "Shériff"; };
 				default { _rang = "Grade non reconnu"; };
 			};
 			_message = format["<img size='10' color='#FFFFFF' image='\data_shark\textures\papiers\insigne_police.paa'/><br/><br/><t size='2.5'>%1</t><br/><t size='1.8'>%2</t><br/><br/><t size='1'>Policier de Lakeside</t>", name _unit, _rang];

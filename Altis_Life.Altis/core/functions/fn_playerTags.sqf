@@ -38,7 +38,7 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
 		_sPos = worldToScreen _pos;
 		_distance = _pos distance player;
 		if(!((headgear _x) in _masks OR (goggles _x) in _masks OR (uniform _x) in _masks)) then {
-			if(count _sPos > 1 && {_distance < 15}) then {
+			if(count _sPos > 1 && {_distance < 0}) then {
 				_text = switch (true) do {
 					case (_x in (units grpPlayer) && playerSide == civilian): {format["<t color='#00FF00'>%1</t>",(_x GVAR ["realname",name _x])];};
 					case (side _x == west && {!isNil {_x GVAR "rank"}}): {format["<img image='%1' size='1'></img> %2",switch ((_x GVAR "rank")) do {

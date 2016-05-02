@@ -18,13 +18,13 @@
 */
 class CfgSpawnPoints {
     class Civilian {
-        class Kavala {
+        /*class Kavala {
             displayName = "Kavala";
             spawnMarker = "civ_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             license[] = { "rebel", false };
             level[] = { "", "", -1 };
-        };
+        };*/
 
         class Athira {
             displayName = "Athira";
@@ -46,44 +46,12 @@ class CfgSpawnPoints {
             displayName = "Sofia";
             spawnMarker = "civ_spawn_4";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            license[] = { "", true };
-            level[] = { "", "", -1 };
-        };
-
-        class RebelS {
-            displayName = "Northern Rebel Base";
-            spawnMarker = "Rebelop";
-            icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-            license[] = { "rebel", true };
-            level[] = { "", "", -1 };
-        };
-
-        class RebelN {
-            displayName = "Southern Rebel Base";
-            spawnMarker = "Rebelop_1";
-            icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-            license[] = { "rebel", true };
-            level[] = { "", "", -1 };
-        };
-
-        class RebelE {
-            displayName = "Eastern Rebel Base";
-            spawnMarker = "Rebelop_2";
-            icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
             license[] = { "rebel", true };
             level[] = { "", "", -1 };
         };
     };
 
     class Cop {
-        class Kavala {
-            displayName = "Kavala HQ";
-            spawnMarker = "cop_spawn_1";
-            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            license[] = { "", true };
-            level[] = { "", "", -1 };
-        };
-
         class Athira {
             displayName = "Athira HQ";
             spawnMarker = "cop_spawn_3";
@@ -107,27 +75,11 @@ class CfgSpawnPoints {
             license[] = { "", true };
             level[] = { "life_coplevel", "SCALAR", 2 };
         };
-
-        class HW {
-            displayName = "HW Patrol";
-            spawnMarker = "cop_spawn_5";
-            icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-            license[] = { "", true };
-            level[] = { "life_coplevel", "SCALAR", 3 };
-        };
     };
 
     class Medic {
-        class Kavala {
-            displayName = "Kavala Hospital";
-            spawnMarker = "medic_spawn_1";
-            icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
-            license[] = { "", true };
-            level[] = { "", "", -1 };
-        };
-
         class Athira {
-            displayName = "Athira Regional";
+            displayName = "Hôpital d'Athira";
             spawnMarker = "medic_spawn_2";
             icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
             license[] = { "", true };
@@ -135,7 +87,7 @@ class CfgSpawnPoints {
         };
 
         class Pyrgos {
-            displayName = "Pyrgos Hospital";
+            displayName = "Hôpital de Pyrgos";
             spawnMarker = "medic_spawn_3";
             icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
             license[] = { "", true };

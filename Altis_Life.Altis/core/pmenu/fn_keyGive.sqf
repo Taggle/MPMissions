@@ -26,6 +26,7 @@ if(_unit == "PlayerQuiRegarde") then {
   _unit = cursorObject;
 } else {
 	_unit = call compile format["%1", _unit];
+};	
 if(isNull _unit OR isNil "_unit") exitWith {};
 if(_unit == player) exitWith {};
 if(player distance _unit > 3) exitWith {["Cette personne n'est pas proche de vous", false] spawn quickNotif;};

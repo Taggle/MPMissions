@@ -27,7 +27,7 @@ _text2 = _display displayCtrl 1102;
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
 _message = _message + "Bienvenue sur le serveur SharkLife !<br /><br />";
-_message = _message + "N'oubliez pas que vous êtes sur un serveur RP, ne faites pas de tir à vue, faites toujours des sommations. Lisez le reste des règles sur le forum.<br /><br />";
+_message = _message + "N'oubliez pas que vous êtes sur un serveur RP, ne faites pas de tir à vue, faites toujours des sommations. Les administrateurs n'ont aucun avantage ingame. Les propos HRP sont strictement interdits. Lisez le reste des règles sur le forum.<br /><br />";
 _message = _message + "TS3: ts3.sharklife.fr   Site internet : sharklife.fr  <br /><br />";
 
 
