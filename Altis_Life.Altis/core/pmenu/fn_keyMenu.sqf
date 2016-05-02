@@ -18,7 +18,7 @@ _plist = _display displayCtrl 2702;
 lbClear _plist;
 _near_units = [];
 
-{ if(player distance _x < 20) then {_near_units pushBack _x};} forEach playableUnits;
+{ if(player distance _x < 50000) then {_near_units pushBack _x};} forEach playableUnits;
 _sortedList = [_near_units,[],{_x getVariable ["realname",""]},"ASCEND"] call BIS_fnc_sortBy;
 
 for "_i" from 0 to (count life_vehicles)-1 do {
