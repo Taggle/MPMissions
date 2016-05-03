@@ -14,16 +14,16 @@ if(isNull _vendor OR EQUAL(_type,"") OR (player distance _vendor > 10)) exitWith
 
 //unprocessed item,processed item, cost if no license,Text to display (I.e Processing  (percent) ..."
 _itemInfo = switch (_type) do {
-	case "oil": {[[["oil_unprocessed",1]],[["oil_processed",1]],1200,(localize "STR_Process_Oil")];};
-	case "diamond": {[[["diamond_uncut",1]],[["diamond_cut",1]],1350,(localize "STR_Process_Diamond")];};
-	case "heroin": {[[["heroin_unprocessed",1]],[["heroin_processed",1]],1750,(localize "STR_Process_Heroin")];};
-	case "copper": {[[["copper_unrefined",1]],[["copper_refined",1]],750,(localize "STR_Process_Copper")];};
-	case "iron": {[[["iron_unrefined",1]],[["iron_refined",1]],1120,(localize "STR_Process_Iron")];};
-	case "sand": {[[["sand",1]],[["glass",1]],650,(localize "STR_Process_Sand")];};
-	case "salt": {[[["salt_unrefined",1]],[["salt_refined",1]],450,(localize "STR_Process_Salt")];};
-	case "cocaine": {[[["cocaine_unprocessed",1]],[["cocaine_processed",1]],1500,(localize "STR_Process_Cocaine")];};
-	case "marijuana": {[[["cannabis",1]],[["marijuana",1]],500,(localize "STR_Process_Marijuana")];};
-	case "cement": {[[["rock",1]],[["cement",1]],350,(localize "STR_Process_Cement")];};
+	case "oil": {[[["oil_unprocessed",1]],[["oil_processed",1]],2000,(localize "STR_Process_Oil")];};
+	case "diamond": {[[["diamond_uncut",1]],[["diamond_cut",1]],5000,(localize "STR_Process_Diamond")];};
+	case "heroin": {[[["heroin_unprocessed",1]],[["heroin_processed",1]],7600,(localize "STR_Process_Heroin")];};
+	case "copper": {[[["copper_unrefined",1]],[["copper_refined",1]],1600,(localize "STR_Process_Copper")];};
+	case "iron": {[[["iron_unrefined",1]],[["iron_refined",1]],1900,(localize "STR_Process_Iron")];};
+	case "sand": {[[["sand",1]],[["glass",1]],2900,(localize "STR_Process_Sand")];};
+	case "salt": {[[["salt_unrefined",1]],[["salt_refined",1]],1600,(localize "STR_Process_Salt")];};
+	case "cocaine": {[[["cocaine_unprocessed",1]],[["cocaine_processed",1]],9000,(localize "STR_Process_Cocaine")];};
+	case "marijuana": {[[["cannabis",1]],[["marijuana",1]],6400,(localize "STR_Process_Marijuana")];};
+	case "cement": {[[["rock",1]],[["cement",1]],1300,(localize "STR_Process_Cement")];};
 	case "ExempleMultiProcess": {[[["peach",2],["cannabis",3],["cocaine_unprocessed",2]],[["diamond_cut",2],["marijuana",5]],350,(localize "STR_Process_Cement")];};
 	default {[];};
 };
