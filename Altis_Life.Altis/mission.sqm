@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=129;
 	class ItemIDProvider
 	{
-		nextID=1508;
+		nextID=1512;
 	};
 	class MarkerIDProvider
 	{
-		nextID=228;
+		nextID=230;
 	};
 	class Camera
 	{
-		pos[]={14509.573,327.54962,17021.557};
-		dir[]={0.016865086,-0.57367826,0.81890869};
-		up[]={0.011812209,0.81908071,0.57355696};
-		aside[]={0.99978918,-1.0011718e-008,-0.020590186};
+		pos[]={16900.541,20.11035,12775.979};
+		dir[]={-0.54071665,-0.66911906,0.50981224};
+		up[]={-0.4868471,0.74315417,0.45902184};
+		aside[]={0.68600976,-2.5611371e-008,0.72759432};
 	};
 };
 binarizationWanted=0;
@@ -214,7 +214,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=907;
+		items=911;
 		class Item0
 		{
 			dataType="Marker";
@@ -639,7 +639,7 @@ class Mission
 			text="DP 17";
 			type="mil_box";
 			colorName="ColorYellow";
-			angle=219.8138;
+			angle=219.81377;
 			id=67;
 		};
 		class Item43
@@ -1509,7 +1509,7 @@ class Mission
 			text="@STR_MAR_Diving_Shop";
 			type="mil_box";
 			colorName="ColorOrange";
-			angle=215.54428;
+			angle=215.54425;
 			id=164;
 		};
 		class Item129
@@ -4049,8 +4049,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={16993.221,16.32688,12866.711};
-				angles[]={6.2751846,5.5647049,6.2645216};
+				position[]={16993.221,16.326881,12866.711};
+				angles[]={6.2751913,5.5647035,6.2645278};
 			};
 			side="Empty";
 			flags=4;
@@ -4061,6 +4061,7 @@ class Mission
 			};
 			id=277;
 			type="Land_CashDesk_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4094,6 +4095,7 @@ class Mission
 				angles[]={0,3.0901928,6.2826972};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -4101,7 +4103,6 @@ class Mission
 			};
 			id=282;
 			type="Land_CashDesk_F";
-			atlOffset=1.1842289;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -31267,7 +31268,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this enableSimulation false; this allowDamage false; this addAction[localize ""STR_MAR_Car_shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,[""civ_car_10"",""civ_car_1_10""],""civ"",""Bruce's New & Used Auto's""]]; this setVariable[""realname"", ""Car Shop""]; this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Car""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_5"";  }]; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+				init="this enableSimulation false; this allowDamage false; this addAction[localize ""STR_MAR_Car_shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_10"",""civ"",""Bruce's New & Used Auto's""]]; this setVariable[""realname"", ""Car Shop""]; this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Car""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_5"";  }]; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 			};
 			id=1332;
 			type="Land_InfoStand_V2_F";
@@ -31275,7 +31276,7 @@ class Mission
 		class Item766
 		{
 			dataType="Marker";
-			position[]={14055.726,26.392366,18729.621};
+			position[]={14058.083,26.367687,18730.1};
 			name="civ_car_10";
 			type="Empty";
 			angle=319.18112;
@@ -31975,13 +31976,14 @@ class Mission
 				angles[]={0,3.1457467,6.2826962};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize ""STR_MAR_General_Store"",life_fnc_weaponShopMenu,""genstore""];";
 			};
 			id=1387;
 			type="Land_InfoStand_V2_F";
-			atlOffset=1.3185539;
+			atlOffset=0.0010108948;
 		};
 		class Item807
 		{
@@ -32351,13 +32353,14 @@ class Mission
 				angles[]={0,3.8207874,6.2823396};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Clothing_Store"",life_fnc_clothingMenu,""bruce""];";
 			};
 			id=1412;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.52046776;
+			atlOffset=0.0014324188;
 		};
 		class Item828
 		{
@@ -33191,7 +33194,7 @@ class Mission
 			};
 			id=1460;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.0019016266;
+			atlOffset=0.21281815;
 		};
 		class Item873
 		{
@@ -33727,8 +33730,55 @@ class Mission
 			text="@STR_MAR_Market";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=32.752701;
+			angle=32.752693;
 			id=1501;
+		};
+		class Item907
+		{
+			dataType="Marker";
+			position[]={14007.623,24.587461,18780.936};
+			name="marker_228";
+			type="loc_Tourism";
+			colorName="ColorGreen";
+			angle=209.35945;
+			id=1508;
+		};
+		class Item908
+		{
+			dataType="Marker";
+			position[]={3680.4658,11.759523,13237.125};
+			name="marker_229";
+			text="Ville fantôme";
+			type="mil_warning";
+			id=1509;
+		};
+		class Item909
+		{
+			dataType="Marker";
+			position[]={16898.961,18.770451,12777.373};
+			name="Gen_3_4_2";
+			text="@STR_MAR_Bruce_Outfits";
+			type="c_unknown";
+			colorName="ColorGreen";
+			angle=313.6857;
+			id=1510;
+		};
+		class Item910
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16899.088,19.350634,12777.261};
+				angles[]={0,5.5144157,6.2826972};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Clothing_Store"",life_fnc_clothingMenu,""bruce""];";
+			};
+			id=1511;
+			type="Land_InfoStand_V2_F";
 		};
 	};
 };
