@@ -340,42 +340,42 @@ class LifeCfgVehicles {
     class A3L_F350Black {
         vItemSpace = 85;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 35000;
+        price = 65000;
         textures[] = { };
     };
 
     class A3L_F350Blue {
         vItemSpace = 85;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 35000;
+        price = 65000;
         textures[] = { };
     };
 
     class A3L_F350Red {
         vItemSpace = 85;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 35000;
+        price = 65000;
         textures[] = { };
     };
 
     class A3L_F350White {
         vItemSpace = 85;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 35000;
+        price = 65000;
         textures[] = { };
     };
 
     class A3L_F350Mex {
         vItemSpace = 85;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 35000;
+        price = 65000;
         textures[] = { };
     };
 
     class Jonzie_Escalade {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 75500;
+        price = 50500;
         textures[] = {
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -436,7 +436,7 @@ class LifeCfgVehicles {
     class DAR_TahoeCivRed {
         vItemSpace = 65;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 70000;
+        price = 47000;
         textures[] = { };
     };
 
@@ -985,14 +985,14 @@ class LifeCfgVehicles {
     class RHS_Ural_Open_Civ_01 {
         vItemSpace = 275;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 2750000;
+        price = 275000;
         textures[] = { };
     };
 
     class O_Truck_03_device_F {
         vItemSpace = 325;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 5000000;
+        price = 500000;
         textures[] = { };
     };
 
@@ -1083,14 +1083,14 @@ class LifeCfgVehicles {
     class  LandRover_ACR {
         vItemSpace = 104;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 75000;
+        price = 87000;
         textures[] = { };
     };
 
     class C_Offroad_01_F {
         vItemSpace = 65;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 12500;
+        price = 9500;
         textures[] = {
             { "Red", "civ", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa",
@@ -1147,7 +1147,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Hatchback_01_sport_F {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 40000;
+        price = 22000;
         textures[] = {
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
