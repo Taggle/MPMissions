@@ -81,11 +81,11 @@ class Life_Settings {
 
     /* Medical System Configurations */
     revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 1500; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
+    revive_fee = 15; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
 
     /* Paycheck & Bank System Configurations */
     bank_cop = 7000; //Amount of cash in bank for new cops
-    bank_civ = 3000; //Amount of cash in bank for new civillians
+    bank_civ = 3750; //Amount of cash in bank for new civillians
     bank_med = 6500; //Amount of cash in bank for new medics
 
     paycheck_period = 15; //Scaled in minutes
