@@ -1091,12 +1091,12 @@
 			<Polish>SMS do Wszyscy</Polish>
 		</Key>
 		<Key ID="STR_CELL_EMSRequest">
-			<Original>Request EMS</Original>
+			<Original>EMS</Original>
 			<Czech>žádost o EMS</Czech>
 			<Spanish>Pedir Médico</Spanish>
 			<Russian></Russian>
 			<German>An die Sanitäter</German>
-			<French>Requête Medecin</French>
+			<French>EMS</French>
 			<Italian>Msg medici</Italian>
 			<Portuguese>Chamar SAMU</Portuguese>
 			<Polish>MEDYK</Polish>
