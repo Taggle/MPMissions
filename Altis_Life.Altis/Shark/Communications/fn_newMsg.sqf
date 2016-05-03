@@ -58,7 +58,7 @@ switch(_type) do{
 	};
 	//emsrequest	
 	case 4:	{		
-		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Actuellement, il n'y a pas de médecin de garde. S'il vous plaît essayer de nouveau plus tard."];
+		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Actuellement, il n'y a pas de médecin disponible. S'il vous plaît essayez de nouveau plus tard."];
 	};
 		ctrlShow[888899,false];
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";
