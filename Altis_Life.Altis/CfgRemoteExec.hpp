@@ -113,7 +113,6 @@ class CfgRemoteExec {
         F(TON_fnc_playerLogged,SERVER)
         F(TON_fnc_changePrice,SERVER)
         F(TON_fnc_getUpdate,SERVER)
-        F(life_fnc_voirpapiers,SERVER)
         F(mocap_fnc_strokeeffects,SERVER)
 
         /* HeadlessClient only functions */
@@ -164,6 +163,11 @@ class CfgRemoteExec {
         F(life_fnc_setFuel,ANYONE)
         F(life_fnc_simDisable,ANYONE)
         F(SPY_fnc_notifyAdmins,ANYONE)
+        F(life_fnc_voirpapiers,ANYONE)
+        F(mocap_fnc_strokeeffects,ANYONE)
+        F(life_fnc_soufflerballon,ANYONE)
+        F(life_fnc_copmedicrequest,ANYONE)
+        F(mocap_fnc_call,ANYONE)
     };
 
     class Commands {
