@@ -20,3 +20,4 @@ CONST(BIS_fnc_endMission,BIS_fnc_endMission);
 //if(EQUAL(LIFE_SETTINGS(getNumber,"sypglass_toggle"),1)) then {[] execVM "SpyGlass\fn_initSpy.sqf";};
 
 [] execVM "core\init.sqf";
+[] execVM "core\functions\fn_emptyFuel.sqf";
