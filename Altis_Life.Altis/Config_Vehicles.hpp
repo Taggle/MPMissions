@@ -338,35 +338,35 @@ class LifeCfgVehicles {
     };
 
     class A3L_F350Black {
-        vItemSpace = 85;
+        vItemSpace = 110;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 65000;
         textures[] = { };
     };
 
     class A3L_F350Blue {
-        vItemSpace = 85;
+        vItemSpace = 110;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 65000;
         textures[] = { };
     };
 
     class A3L_F350Red {
-        vItemSpace = 85;
+        vItemSpace = 110;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 65000;
         textures[] = { };
     };
 
     class A3L_F350White {
-        vItemSpace = 85;
+        vItemSpace = 110;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 65000;
         textures[] = { };
     };
 
     class A3L_F350Mex {
-        vItemSpace = 85;
+        vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 65000;
         textures[] = { };
