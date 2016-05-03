@@ -10177,10 +10177,10 @@
 		  <Original>Smartphone</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_TITLE">
-		  <Original>Smartphone Menu</Original>
+		  <Original>Menu iPhone</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_PLAYERLISTTITLE">
-			<Original>Liste des joueurs</Original>
+			<Original>Annuaire</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
 			<Original>NOUVELLES  | DE | QUAND</Original>
@@ -10192,19 +10192,19 @@
 			<Original>Fermer</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_SCHREIBEN">
-			<Original>écrire</Original>
+			<Original>Écrire</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_NOTRUF">
-			<Original>appel d'urgence</Original>
+			<Original>Urgences</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_Absenden">
-			<Original>envoyer</Original>
+			<Original>Envoyer</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_NACHRICHTTITLE">
 			<Original>Message:</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_Notruftitle">
-			<Original>APPELS d'URGENCE | L'abus conduit au BAN!</Original>
+			<Original>Appels d'urgence</Original>
 		</Key>
 	</Package>
 
