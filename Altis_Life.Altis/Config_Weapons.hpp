@@ -193,7 +193,8 @@ class WeaponShops {
             { "Chemlight_red", "", 5, -1 },
             { "Chemlight_yellow", "", 5, 1 },
             { "Chemlight_green", "", 5, 1 },
-            { "Chemlight_blue", "", 5, 1 }
+            { "Chemlight_blue", "", 5, 1 },
+            { "Binocular", "", 75, -1 },
         };
         mags[] = {
             { "DDOPP_1Rnd_X26", "Chargeur x26", 5 },
@@ -238,7 +239,7 @@ class WeaponShops {
         name = "Altis Sergeant Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "Vous n'êtes pas sergent!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Vous n'êtes pas Sergent!" };
         items[] = {
             { "DDOPP_X26_b", "Tazer x26 Noir", 100, 50 },
             { "DDOPP_X26", "Tazer x26 Jaune", 100, 50 },
