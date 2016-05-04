@@ -1,1 +1,1 @@
-Multiplayer scenarios exported from the in-game editor are stored here. You can also place downloaded custom scenarios in this folder and host them on Multiplayer servers.
+Test by Kryshark
